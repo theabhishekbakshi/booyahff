@@ -1,0 +1,317 @@
+[
+  {
+    "id": "enhance-hammer",
+    "name": "Enhance Hammer",
+    "category": "Loadout",
+    "shortDescription": null,
+    "tagline": null,
+    "imageLocal": "/assets/loadouts/enhance-hammer.png",
+    "descriptionBr": "Enhance your or your teammates' weapon on the panel.\n\n- Current BR enhancement cost: 400 FF Coins per enhancement.\n- Weapons can be enhanced through the panel for either your own or a teammate's weapon.\n- All attachments on an enhanced weapon are upgraded to the maximum level, with one attachment further boosted to the highest red-tier.\n- Enhanced attachments are permanently fixed to the weapon and cannot be removed.\n\nPatch note: OB51 launched this at 600 FF Coins, then OB52 reduced the enhancement cost from 600 to 400 FF Coins.",
+    "descriptionCs": "Earn tokens via eliminations and enhance weapons / gloo walls during purchase phase.\n\n- A hammer token is granted for every two eliminations.\n- Tokens can be used during the purchase phase to enhance weapons in the CS Store, with the effect shared across the team.\n- Hammer tokens can also be spent to enhance Gloo Walls for your team to carry up to 6 Gloo Walls.",
+    "cost": {
+      "br": {
+        "currency": "FF Coins",
+        "note": null,
+        "items": [
+          {
+            "id": "weapon_enhancement",
+            "name": "Weapon Enhancement",
+            "cost": 400,
+            "previousCost": 600,
+            "changedIn": "OB52",
+            "usage": null,
+            "cooldown": null
+          }
+        ]
+      },
+      "cs": {
+        "currency": "Hammer Token",
+        "note": null,
+        "items": [
+          {
+            "id": "hammer_token",
+            "name": "Hammer Token",
+            "cost": 0,
+            "earnRule": "1 token per 2 eliminations"
+          }
+        ]
+      }
+    },
+    "gadgets": [],
+    "boosters": [],
+    "patchHistory": [
+      {
+        "version": "OB51",
+        "change": "Introduced as one of the four reworked loadouts; BR enhancement cost was 600 FF Coins."
+      },
+      {
+        "version": "OB52",
+        "change": "BR enhancement cost reduced from 600 to 400 FF Coins."
+      }
+    ]
+  },
+  {
+    "id": "super-leg-pocket",
+    "name": "Super Leg Pocket",
+    "category": "Loadout",
+    "shortDescription": null,
+    "tagline": null,
+    "imageLocal": "/assets/loadouts/super-leg-pocket.png",
+    "descriptionBr": "Start with extra utility items and inventory advantages.\n\n- Receive bonfire, additional backpack space, extra armor, and other items at the start of the match.",
+    "descriptionCs": "Start each match with key items and extra protection.\n\n- Receive bonfire, katana, extra armor, and other items at the start of the match.",
+    "cost": {
+      "br": {
+        "currency": "FF Coins",
+        "note": "No direct purchase cost listed in official patch notes; this loadout grants starting utility.",
+        "items": []
+      },
+      "cs": {
+        "currency": "CS Cash",
+        "note": "No direct purchase cost listed in official patch notes; this loadout grants starting utility.",
+        "items": []
+      }
+    },
+    "gadgets": [],
+    "boosters": [],
+    "patchHistory": []
+  },
+  {
+    "id": "tactical-market",
+    "name": "Tactical Market",
+    "category": "Loadout",
+    "shortDescription": "Access utility tools and tactical gadgets through an anytime market in BR, and deploy gadgets through a tactical panel in CS.",
+    "tagline": "Make the battlefield your playground!",
+    "imageLocal": "/assets/loadouts/tactical-market.png",
+    "descriptionBr": "Access the tactical market anytime, anywhere.\n\nCurrent OB53 BR notes:\n- Removed Hit List and Arsenal Key.\n- Monster Truck Drop can only be purchased within the first 600s of the match.\n- Dinoculars price changed from 200 FF Coins to 100 FF Coins.\n- Launch Pads now have unlimited use; price increased to 1400 FF Coins.\n- Removed active skill cards.\n- UAV-Lite is now single-use and has purple rarity; purchase limit 2.\n- Added Heal UAV-Lite; purchase limit 2.\n\nOriginal OB51 note:\n- Tactical Market originally included Info Box, Arsenal Key, Hit List, Tactical Gadgets, Monster Truck, and Bolt Maker.\n- Bolt Maker could create a 30s Lightning Zone that randomly strikes enemies once per second for 60 damage. Teammates are immune.",
+    "descriptionCs": "Get a tactical panel each round and deploy a chosen gadget.\n\nCurrent OB53 CS notes:\n- Added an in-match Tactical Market button during the battle phase.\n- Tap to deploy the default or last-used gadget at your current location.\n- Hold to open the selection wheel and drag to the chosen gadget to deploy it immediately.\n- Tactical Market can be used while moving.\n- Gadget durations now start after the preparation phase.\n- UAV-Lites were removed from the Tactical Market.\n- Jammer devices were added as anti-scan utility.\n\nCore gadgets:\n- Super Bonfire: Heals teammates within 8m over time and provides combat boosts.\n- Smoke Vortex: Generates a swirling smoke field that blocks enemy vision.\n- Cyber Barricade: Deploys large barriers for cover.",
+    "cost": {
+      "br": {
+        "currency": "FF Coins",
+        "note": null,
+        "items": [
+          {
+            "id": "Dinoculars",
+            "name": "Dinoculars",
+            "cost": 100,
+            "previousCost": 200,
+            "changedIn": "OB53",
+            "usage": null,
+            "cooldown": null
+          },
+          {
+            "id": "launch_pad",
+            "name": "Launch Pad",
+            "cost": 1400,
+            "previousCost": 800,
+            "changedIn": "OB53",
+            "usage": "Unlimited use",
+            "cooldown": "300s"
+          },
+          {
+            "id": "monster_truck_drop",
+            "name": "Monster Truck Drop",
+            "cost": null,
+            "previousCost": null,
+            "changedIn": null,
+            "usage": null,
+            "cooldown": null
+          },
+          {
+            "id": "uav_lite",
+            "name": "UAV-Lite",
+            "cost": null,
+            "previousCost": null,
+            "changedIn": "OB53",
+            "usage": "Single-use",
+            "cooldown": null
+          },
+          {
+            "id": "heal_uav_lite",
+            "name": "Heal UAV-Lite",
+            "cost": null,
+            "previousCost": null,
+            "changedIn": null,
+            "usage": null,
+            "cooldown": null
+          }
+        ]
+      },
+      "cs": {
+        "currency": "CS Cash",
+        "note": null,
+        "items": [
+          {
+            "id": "super_bonfire",
+            "name": "Super Bonfire",
+            "cost": null,
+            "earnRule": null
+          },
+          {
+            "id": "smoke_vortex",
+            "name": "Smoke Vortex",
+            "cost": null,
+            "earnRule": null
+          },
+          {
+            "id": "cyber_barricade",
+            "name": "Cyber Barricade",
+            "cost": null,
+            "earnRule": null
+          },
+          {
+            "id": "jammer",
+            "name": "Jammer",
+            "cost": null,
+            "earnRule": null
+          }
+        ]
+      }
+    },
+    "gadgets": [
+      {
+        "id": "super-bonfire",
+        "name": "Super Bonfire",
+        "rarity": null,
+        "descriptionBr": null,
+        "descriptionCs": null
+      },
+      {
+        "id": "smoke-vortex",
+        "name": "Smoke Vortex",
+        "rarity": null,
+        "descriptionBr": null,
+        "descriptionCs": null
+      },
+      {
+        "id": "cyber-barricade",
+        "name": "Cyber Barricade",
+        "rarity": null,
+        "descriptionBr": null,
+        "descriptionCs": null
+      },
+      {
+        "id": "bolt-maker",
+        "name": "Bolt Maker",
+        "rarity": null,
+        "descriptionBr": null,
+        "descriptionCs": null
+      },
+      {
+        "id": "jammer",
+        "name": "Jammer",
+        "rarity": null,
+        "descriptionBr": null,
+        "descriptionCs": null
+      }
+    ],
+    "boosters": [],
+    "patchHistory": [
+      {
+        "version": "OB51",
+        "change": "Tactical Market introduced as one of the four new loadouts. BR version included Info Box, Arsenal Key, Hit List, Tactical Gadgets, Monster Truck, and Bolt Maker. CS version introduced Super Bonfire, Smoke Vortex, and Cyber Barricade."
+      },
+      {
+        "version": "OB52",
+        "change": "Major price adjustments for Tactical Market items. Smoke Vortex duration reduced to 40s."
+      },
+      {
+        "version": "OB53",
+        "change": "Removed Hit List, Arsenal Key, and active skill cards. Added Heal UAV-Lite. Launch Pads became unlimited-use at 1400 FF Coins. CS received one-tap/hold-to-wheel in-match deployment, moving deployment, duration timing after prep phase, UAV-Lite removal, and Jammer addition."
+      }
+    ]
+  },
+  {
+    "id": "team-booster",
+    "name": "Team Booster",
+    "category": "Loadout",
+    "shortDescription": null,
+    "tagline": null,
+    "imageLocal": "/assets/loadouts/team-booster.png",
+    "descriptionBr": "Equip up to 3 unique team boosts and swap anytime.\n\n- You'll have up to 3 boost slots to equip any 3 out of 6 available boosts.\n- Each boost can only be selected once per team and is applied to all teammates.\n- Current slot costs: Slot 1 is free at match start; Slot 2 costs 300 FF Coins; Slot 3 costs 600 FF Coins.\n- You can swap boosts at any time during the match, and unlocked slots remain active after you're revived.\n\nCurrent BR boost values after OB52:\n- HP/EP Recovery: Restore 2 EP and 1 HP every second.\n- Speed Up: Move 4% faster after not firing or not taking damage for 4s.\n- Extra Heal: Receive 10% more healing. The effect disappears 2s after taking out-of-zone damage.\n- Out-Zone Buff: When outside the Safe Zone, EP conversion rate +100% and move 12% faster.\n- Gloo Wall: Increase Gloo Wall's HP by 100.\n- Armor: Restore 3% armor durability every second.",
+    "descriptionCs": "Helper Bot revives teammates remotely + Secret Bazaar team buffs in CS Store.\n\n- Get a Helper Bot per round.\n- When a teammate is knocked down within 16m, you can release the bot to help them up remotely.\n- The Helper Bot can be destroyed if shot.\n- The Helper Bot takes 7.5s to help up a teammate, reduced to 4s with Thiva's skill.\n- The Secret Bazaar section is available in the CS Store, offering team buffs for purchase.",
+    "cost": {
+      "br": {
+        "currency": "FF Coins",
+        "note": "The cost is for unlocking extra boost slots. Selecting/swapping a boost has no separate official cost listed.",
+        "items": []
+      },
+      "cs": {
+        "currency": "CS Cash",
+        "note": null,
+        "items": [
+          {
+            "id": "helper_bot",
+            "name": "Helper Bot",
+            "cost": 0,
+            "earnRule": null
+          },
+          {
+            "id": "secret_bazaar",
+            "name": "Secret Bazaar Team Buffs",
+            "cost": null,
+            "earnRule": null
+          }
+        ]
+      }
+    },
+    "gadgets": [],
+    "boosters": [
+      {
+        "id": "hp_ep_recovery",
+        "name": "HP/EP Recovery",
+        "rarity": null,
+        "effect": null
+      },
+      {
+        "id": "speed_up",
+        "name": "Speed Up",
+        "rarity": null,
+        "effect": null
+      },
+      {
+        "id": "extra_heal",
+        "name": "Extra Heal",
+        "rarity": null,
+        "effect": null
+      },
+      {
+        "id": "out_zone_buff",
+        "name": "Out-Zone Buff",
+        "rarity": null,
+        "effect": null
+      },
+      {
+        "id": "gloo_wall",
+        "name": "Gloo Wall",
+        "rarity": null,
+        "effect": null
+      },
+      {
+        "id": "armor",
+        "name": "Armor",
+        "rarity": null,
+        "effect": null
+      },
+      {
+        "id": "helper_bot",
+        "name": "Helper Bot",
+        "rarity": null,
+        "effect": null
+      }
+    ],
+    "patchHistory": [
+      {
+        "version": "OB51",
+        "change": "Team Booster introduced. BR slot costs were Slot 1 free, Slot 2 400 FF Coins, Slot 3 800 FF Coins."
+      },
+      {
+        "version": "OB52",
+        "change": "Team Booster Slot 2 reduced to 300 FF Coins and Slot 3 reduced to 600 FF Coins. Speed Up reduced from 7% to 4%. Out-Zone changed from +200% EP conversion / +7% speed to +100% EP conversion / +12% speed."
+      },
+      {
+        "version": "OB53",
+        "change": "Quick Messages added prompts when selecting a team buff or deploying Helper Bot; Helper Bot display/progress was optimized."
+      }
+    ]
+  }
+]

@@ -1,9 +1,11 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  // SEO-first static dataset: pages await params/searchParams outside Suspense
+  // so unlisted dynamic params block and `notFound()` emits a real HTTP 404
+  // ("fallback: blocking" ISR style). Partial Prefetching must be off for that.
   cacheComponents: true,
-  partialPrefetching: true,
+  partialPrefetching: false,
   turbopack: {
     rules: {
       "*.css": {

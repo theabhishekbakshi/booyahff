@@ -1,0 +1,1825 @@
+[
+  {
+    "id": "a124",
+    "name": "A124",
+    "skill": "THRILL OF BATTLE",
+    "skillType": "Active",
+    "role": "ATTACK",
+    "description": "Active - 8m electromagnetic wave that disables enemy skills activation for 20s, inflicts 25 DMG. 75s cooldown",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/a124.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 1901,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Damage / weapon pressure",
+      "priority": "high",
+      "bestUse": "Use to win weapon-specific duels and punish exposed targets before sustain can matter.",
+      "counterFocus": "Deny clean sightlines, force utility trades, and use mitigation before swinging."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "alok",
+    "name": "Alok",
+    "skill": "DROP THAT BEAT",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Creates a 5m aura that increases movement speed by 15% and restores 5 HP per second for 10s. Effects do not stack. Cooldown 45s.",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/alok.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": "OB54",
+    "apiId": 2206,
+    "skillBoosts": [
+      {
+        "name": "Speed Remix",
+        "effect": "Aura range increases to 10m and teammates inside receive a 16% speed boost.",
+        "csRead": "Improves coordinated rush timing and wide swings."
+      },
+      {
+        "name": "Heal Remix",
+        "effect": "While the skill is active, restores 20 HP/s.",
+        "csRead": "Turns Alok into a stronger mid-fight stabilizer."
+      }
+    ],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "high",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": "In OB54 Clash Squad, Skill Boost access is tied to CS Perk Points / upgrade choices rather than being available from the opening purchase by default."
+  },
+  {
+    "id": "chrono",
+    "name": "Chrono",
+    "skill": "TIME TURNER",
+    "skillType": "Active",
+    "role": "TEAM WORK",
+    "description": "Active - Creates an impenetrable force field that blocks 1000 DMG. Unable to attack outside enemies from within the field. All effects last for 10s. Cooldown: 45s.",
+    "changeStatus": "buffed",
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/chrono.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": "OB54",
+    "apiId": 3801,
+    "skillBoosts": [
+      {
+        "name": "Time Veil",
+        "effect": "Force field cannot be seen through and blocks 1000 DMG.",
+        "csRead": "Best for vision denial, retakes, and surprise peeks after unlocking Skill Boost."
+      },
+      {
+        "name": "Time Drift",
+        "effect": "Force field moves with the user and blocks 600 DMG; tap again to anchor it.",
+        "csRead": "Best for coordinated entry and crossing open lanes."
+      }
+    ],
+    "csAnalysis": {
+      "archetype": "Shield / mitigation",
+      "priority": "high",
+      "bestUse": "Use to stabilize rushes, absorb shotgun bursts, or buy revive/reset time.",
+      "counterFocus": "Do not feed into the shield. Delay, flank, break cover, or punish after the duration."
+    },
+    "csPerkNote": "In OB54 Clash Squad, Skill Boost access is tied to CS Perk Points / upgrade choices rather than being available from the opening purchase by default."
+  },
+  {
+    "id": "clu",
+    "name": "Clu",
+    "skill": "TRACING STEPS",
+    "skillType": "Active",
+    "role": "INFO",
+    "description": "Active - Locate positions of enemies within 80m who are not in prone or squat position. Lasts for 10s. Enemy positions are shared with teammates. Boosts movement speed by 10% while in effect. Cooldown: 455.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/clu.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 3101,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "high",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "dimitri",
+    "name": "Dimitri",
+    "skill": "HEALING HEARTBEAT",
+    "skillType": "Active",
+    "role": "TEAM WORK",
+    "description": "Active - Creates a 4m-diameter healing zone. Inside, user and allies recover 10HP/s. When downed, user and allies can self recover to get up. Lasts for 6s. Cooldown 75s.",
+    "changeStatus": "buffed",
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/dimitri.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 4701,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "medium",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "homer",
+    "name": "Homer",
+    "skill": "SENSES SHOCKWAVE",
+    "skillType": "Active",
+    "role": "INFO",
+    "description": "Active - Releases a drone towards nearest enemy within 100m frontal distance creating a 5.5m diameter pulse which reduces movement speed by 40% and firing speed by 40% for 5s. 25 damage. 60s cooldown",
+    "changeStatus": "buffed",
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/homer.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": "OB54",
+    "apiId": 5501,
+    "skillBoosts": [
+      {
+        "name": "UAV Shockwave",
+        "effect": "After hitting an enemy, activates one scan around the impact area; CS scan range is 30m for 5s.",
+        "csRead": "Strong for clearing close-angle stacks and Cyber Airdrop fights."
+      },
+      {
+        "name": "Super Drone",
+        "effect": "Launches an enhanced drone and starts gliding with a 15% speed boost for 15s.",
+        "csRead": "Good for entry follow-up and rapid repositioning."
+      }
+    ],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "high",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": "In OB54 Clash Squad, Skill Boost access is tied to CS Perk Points / upgrade choices rather than being available from the opening purchase by default."
+  },
+  {
+    "id": "ignis",
+    "name": "Ignis",
+    "skill": "FLAME MIRAGE",
+    "skillType": "Active",
+    "role": "ATTACK",
+    "description": "Active - Deploys a 10m-wide flaming screen that lasts 10s and moves forward at 6m/s for up to 8s. While in effect, use the skill again to stop the screen. Enemies (or Gloo Walls) that get in touch with it will instantly take 25 (or 400) DMG, and then take 5 (or 100) DMG/s. Lasts 2s. Cooldown: 60s. Upto 2 skills can be stored with a 0.5s cooldown in between",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/ignis.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 6706,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Anti-Gloo / cover breaker",
+      "priority": "medium",
+      "bestUse": "Use to open compact defenses, punish revive/heal resets, and break chained Gloo Wall fights.",
+      "counterFocus": "Avoid over-layering Gloo Walls in one spot; use mobility, pre-shields, and wide spacing."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "iris",
+    "name": "Iris",
+    "skill": "WALL BRAWL",
+    "skillType": "Active",
+    "role": "INFO",
+    "description": "Active - For 15s, firing at gloo will mark enemies within 7m and penetrate gloo to damage marked enemies. Max 5 gloo walls. 60s cooldown",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/iris.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 5601,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Anti-Gloo / cover breaker",
+      "priority": "medium",
+      "bestUse": "Use to open compact defenses, punish revive/heal resets, and break chained Gloo Wall fights.",
+      "counterFocus": "Avoid over-layering Gloo Walls in one spot; use mobility, pre-shields, and wide spacing."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "k",
+    "name": "K",
+    "skill": "MASTER OF ALL",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Max. EP increases by 50. Jiu-jitsu Mode: Allies within 15m get 600% increase in EP conversion rate. Psychology Mode: Recover 3 EP every 1s, up to 250 EP. Mode switch Cooldown: 6s.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/k.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 3401,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "medium",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "kassie",
+    "name": "Kassie",
+    "skill": "BASIC THERAPY / FOCUSED THERAPY",
+    "skillType": "Active",
+    "role": "TEAM WORK",
+    "description": "Active - Basic Therapy (no cooldown): Tap to create a 50m max healing bond with a teammate, restoring 3 HP/s for both. The bond breaks if the range is exceeded or can be manually canceled. Focused Therapy: Tap again to instantly restore 120 HP to the target (The skill will be auto-released while target's HP is below 50. Healing amount will be 80% when used manually.) Cooldown: 45s.",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/kassie.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": "OB54",
+    "apiId": 7006,
+    "skillBoosts": [
+      {
+        "name": "Mutual Focus",
+        "effect": "Focused Therapy restores 60 HP to self while healing the teammate.",
+        "csRead": "Keeps the healer alive during trades."
+      },
+      {
+        "name": "Echoed Bond",
+        "effect": "Creates mini Kassies behind self and target teammate. Each mini Kassie deals 5 DMG when their player lands a shot. Cooldown: 0.2s.",
+        "csRead": "Adds poke pressure to linked duos in close CS fights."
+      }
+    ],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "high",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": "In OB54 Clash Squad, Skill Boost access is tied to CS Perk Points / upgrade choices rather than being available from the opening purchase by default."
+  },
+  {
+    "id": "kenta",
+    "name": "Kenta",
+    "skill": "TEMPEST RAID",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Sends a tempest through Gloo Walls for 8s, dealing 25 damage on contact. Reactivate to teleport to it, ending the tempest and gaining 20% damage reduction for 5s. Cooldown: 45s.",
+    "changeStatus": "reworked",
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/kenta.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/",
+      "https://ff.garena.com/en/article/1712/"
+    ],
+    "lastReviewed": "2026-09-25",
+    "dataConfidence": "ob55_patch_changes_verified; unchanged fields retained from supplied reference",
+    "patchVersion": "OB55",
+    "apiId": 5401,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / protected entry",
+      "priority": "medium",
+      "bestUse": "Analyst interpretation: coordinate a trade after teleporting past cover.",
+      "counterFocus": "Analyst interpretation: watch the tempest path and cover its possible landing position."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "koda",
+    "name": "Koda",
+    "skill": "AURORA VISION",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Activates the Aurora power for 8s. Increases movement speed by 15% and discovers enemies behind cover within 50m every 1s (unable to detect those crouching or prone). Cooldown: 45s. (While parachuting, highlights enemy locations within the field of view but the effect is not shared with teammates.)",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/koda.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": "OB54",
+    "apiId": 7206,
+    "skillBoosts": [
+      {
+        "name": "Synced Vision",
+        "effect": "Marks enemies revealed during the first detection interval for 3s and shares the information with teammates.",
+        "csRead": "Best for coordinated pre-aims and punishing hidden defenders."
+      },
+      {
+        "name": "Imprinted Vision",
+        "effect": "Each revealed enemy gains stackable imprints up to 3; attacking activates imprints for 10 extra DMG per stack.",
+        "csRead": "Converts scouting into burst damage for focused fire."
+      }
+    ],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "high",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": "In OB54 Clash Squad, Skill Boost access is tied to CS Perk Points / upgrade choices rather than being available from the opening purchase by default."
+  },
+  {
+    "id": "morse",
+    "name": "Morse",
+    "skill": "STEALTH BYTES",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Enters the Stealth mode, during which the user is hard to be seen by enemies beyond 16m, cannot be detected by enemies, and gains a 20% speed boost. Meanwhile, aim assist will be triggered if there are enemies within 12m. Lasts up to 13s. While stealthed, the user cannot fire. Exiting Stealth has a 1s delay. Cooldowns: 45s.",
+    "changeStatus": "nerfed",
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/morse.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/",
+      "https://ff.garena.com/en/article/1712/"
+    ],
+    "lastReviewed": "2026-09-25",
+    "dataConfidence": "ob55_patch_changes_verified; unchanged fields retained from supplied reference",
+    "patchVersion": "OB55",
+    "apiId": 7706,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "medium",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "nero",
+    "name": "Nero",
+    "skill": "CRYO MIND",
+    "skillType": "Active",
+    "role": "ATTACK",
+    "description": "Active - Throws a 1-HP plushie. The plushie lasts for 12s, ignores obstacles and can fly up to 50m (100m in BR). The plushie tracks the nearest enemy in sight within 8m and explodes to create an 8m dreamy space. Inside the space, the user and enemies cannot place Gloo Walls. Enemies lose 6 HP/s. The space disappears once the plushie is destroyed. The destroyer is marked for 5s. Cooldown: 45s.",
+    "changeStatus": "fixed",
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/nero.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/",
+      "https://ff.garena.com/en/article/1712/"
+    ],
+    "lastReviewed": "2026-09-25",
+    "dataConfidence": "ob55_patch_changes_verified; unchanged fields retained from supplied reference",
+    "patchVersion": "OB55",
+    "apiId": 7606,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Anti-Gloo / cover breaker",
+      "priority": "high",
+      "bestUse": "Use to open compact defenses, punish revive/heal resets, and break chained Gloo Wall fights.",
+      "counterFocus": "Avoid over-layering Gloo Walls in one spot; use mobility, pre-shields, and wide spacing."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "orion",
+    "name": "Orion",
+    "skill": "CRIMSON CRUSH",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Replaces EP with 300 Crimson Energy. Consumes 200 Crimson Energy to activate its protection, during which you cannot take damage or attack enemies and will absorb 10 HP (ignoring enemy Shield Points) from foes within 5m. Lasts for 3s, during which your movement speed will decrease by 5%. Cooldown: 3s.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/orion.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 6201,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "medium",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "oscar",
+    "name": "Oscar",
+    "skill": "VALIANT DASH",
+    "skillType": "Active",
+    "role": "ATTACK",
+    "description": "Active - Dashes toward the target direction, detonating the first 3 Gloo Walls in the way with 25 DMG, while also dealing 25 DMG to and knocking back enemies encountered. Cooldown: 60s.",
+    "changeStatus": "nerfed",
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/oscar.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": "OB54",
+    "apiId": 7406,
+    "skillBoosts": [
+      {
+        "name": "Phantom Dash",
+        "effect": "Summons phantom forms to increase dash range.",
+        "csRead": "More threatening for multi-wall entries and sudden backline pressure."
+      },
+      {
+        "name": "Sustained Dash",
+        "effect": "Extends dash duration to 8s; dash starts slower and gains speed over time.",
+        "csRead": "Better for long executes than instant all-in bursts."
+      }
+    ],
+    "csAnalysis": {
+      "archetype": "Anti-Gloo / cover breaker",
+      "priority": "high",
+      "bestUse": "Use to open compact defenses, punish revive/heal resets, and break chained Gloo Wall fights.",
+      "counterFocus": "Avoid over-layering Gloo Walls in one spot; use mobility, pre-shields, and wide spacing."
+    },
+    "csPerkNote": "In OB54 Clash Squad, Skill Boost access is tied to CS Perk Points / upgrade choices rather than being available from the opening purchase by default."
+  },
+  {
+    "id": "ray",
+    "name": "Ray",
+    "skill": "BOND OF ECLIPSE",
+    "skillType": "Active",
+    "role": "ATTACK",
+    "description": "Active - Releases the sunpower forward in a 30m fan-shaped range to tag the first undowned enemy hit for 10s and creates a link with them (visible in 40m to only the skill user and their tagged enemy). If the user reduces the tagged enemy's HP to 30 (prev 40) or below, the enemy is knocked down instantly. If the enemy is knocked down or eliminated while tagged, moonpower will reset the skill and restore the user's HP by 10/s for 3s in total. Cooldown: 45s.",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/ray.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 7806,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Damage / weapon pressure",
+      "priority": "high",
+      "bestUse": "Use to win weapon-specific duels and punish exposed targets before sustain can matter.",
+      "counterFocus": "Deny clean sightlines, force utility trades, and use mitigation before swinging."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "ryden",
+    "name": "Ryden",
+    "skill": "SPIDER TRAP",
+    "skillType": "Active",
+    "role": "ATTACK",
+    "description": "Active - Release a destructible explosive spider in the target direction, lasting for 60s. Tap on the skill button again within 10s to stop the spider's movement. The spider will catch the first enemy it spotted within 5m, reduce their speed by 80% and cause them to lose 10 HP/s. Skill effects last for 4s. Cooldown: 60s. 2 skills can be used with 10s between.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/ryden.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 6806,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "situational",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "santino",
+    "name": "Santino",
+    "skill": "SHAPE SPLITTER",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Spawn a 200 HP mannequin that autonomously travels for 25s. When the mannequin is within 90m, use the skill again to switch positions with it. You can only switch once within 3s, up to 2 time(s) in total. The player who destroys the mannequin will be marked for 5s. Cooldown: 60s. **Teleport height restriction (cannot teleport when the mannequin is 10m higher than the user)**",
+    "changeStatus": "fixed",
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/santino.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/",
+      "https://ff.garena.com/en/article/1712/"
+    ],
+    "lastReviewed": "2026-09-25",
+    "dataConfidence": "ob55_patch_changes_verified; unchanged fields retained from supplied reference",
+    "patchVersion": "OB55",
+    "apiId": 6001,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "high",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "skyler",
+    "name": "Skyler",
+    "skill": "RIPTIDE RHYTHM",
+    "skillType": "Active",
+    "role": "ATTACK",
+    "description": "Active - Unleashes a sonic wave forward beyond 100m. When hitting an obstacle, the wave will explode and deal 500 DMG/s to Gloo Walls within 4m. Lasts 6s Cooldown: 45s. Up to 2 skill charges can be stored. Gloo Walls > 5m away is auto aimed.",
+    "changeStatus": "adjusted",
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/skyler.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/",
+      "https://ff.garena.com/en/article/1712/"
+    ],
+    "lastReviewed": "2026-09-25",
+    "dataConfidence": "ob55_patch_changes_verified; unchanged fields retained from supplied reference",
+    "patchVersion": "OB55",
+    "apiId": 4001,
+    "skillBoosts": [
+      {
+        "name": "Sticky Rhythm",
+        "effect": "After Riptide Rhythm hits, creates a small area that follows the nearest enemy and damages Gloo Walls inside it.",
+        "csRead": "Punishes teams that reset behind chained Gloo Walls."
+      },
+      {
+        "name": "Split Rhythm",
+        "effect": "Searches for Gloo Walls within 75m for 15s and sends waves at up to 3 walls at the same time.",
+        "csRead": "Best anti-wall boost for structured site breaks."
+      }
+    ],
+    "csAnalysis": {
+      "archetype": "Anti-Gloo / cover breaker",
+      "priority": "high",
+      "bestUse": "Use to open compact defenses, punish revive/heal resets, and break chained Gloo Wall fights.",
+      "counterFocus": "Avoid over-layering Gloo Walls in one spot; use mobility, pre-shields, and wide spacing."
+    },
+    "csPerkNote": "In OB54 Clash Squad, Skill Boost access is tied to CS Perk Points / upgrade choices rather than being available from the opening purchase by default."
+  },
+  {
+    "id": "steffie",
+    "name": "Steffie",
+    "skill": "PAINTED REFUGE",
+    "skillType": "Active",
+    "role": "TEAM WORK",
+    "description": "Active - Creates 4m area where throwables are invalid. Allies in area will restore 10% armor every second and damage from ammo reduce by 20%. Lasts for 15s. 60s cooldown",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/steffie.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 2601,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Shield / mitigation",
+      "priority": "high",
+      "bestUse": "Use to stabilize rushes, absorb shotgun bursts, or buy revive/reset time.",
+      "counterFocus": "Do not feed into the shield. Delay, flank, break cover, or punish after the duration."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "tatsuya",
+    "name": "Tatsuya",
+    "skill": "REBEL RUSH",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Dashes forward at a rapid speed for 0.3s and resets the cooldown by knocking down enemies. Dash replenish time: 90s (before 120).",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/tatsuya.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 5801,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "high",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "wukong",
+    "name": "Wukong",
+    "skill": "CAMOUFLAGE",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Transforms into a bush with 10% reduction in movement speed, that lasts for 10s. Cooldown: 75s. Transformation ends when Wukong attacks. CD resets when Wukong takes down an enemy.",
+    "changeStatus": "buffed",
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/wukong.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/",
+      "https://ff.garena.com/en/article/1712/"
+    ],
+    "lastReviewed": "2026-09-25",
+    "dataConfidence": "ob55_patch_changes_verified; unchanged fields retained from supplied reference",
+    "patchVersion": "OB55",
+    "apiId": 1201,
+    "skillBoosts": [
+      {
+        "name": "Camo Decoy",
+        "effect": "Leaves a moving Wukong decoy at the original location; decoy disappears after 10 DMG, 10s, or return to human form.",
+        "csRead": "Baits crosshair placement and scan reactions."
+      },
+      {
+        "name": "Cloned Camo",
+        "effect": "Transforms into a bush while creating two extra bushes for 10s.",
+        "csRead": "Creates multiple fake targets for late-round clutches."
+      }
+    ],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "high",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": "In OB54 Clash Squad, Skill Boost access is tied to CS Perk Points / upgrade choices rather than being available from the opening purchase by default."
+  },
+  {
+    "id": "xayne",
+    "name": "Xayne",
+    "skill": "XTREME ENCOUNTER",
+    "skillType": "Active",
+    "role": "SURVIVAL",
+    "description": "Active - Enters Xtreme state and instantly obtains 70 (before 50) temporary Shield Points for 12s during which each knockdown of an enemy restores the temporary Shield Points gained through this skill back to 50 and resets the state duration. Once state ends, the Shield Points earned from this process will be removed. Cooldown: 75s.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/xayne.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 4401,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "medium",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "alvaro",
+    "name": "Alvaro",
+    "skill": "SPLIT BLITZ",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Damage of explosive increase by 25% (Buffed: 20% → 25%) and range increases by 10%. Each grenade will split into 3 mini grenades after explosion, dealing 25% damage of the original grenade.",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/alvaro.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 2306,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Damage / weapon pressure",
+      "priority": "situational",
+      "bestUse": "Use to win weapon-specific duels and punish exposed targets before sustain can matter.",
+      "counterFocus": "Deny clean sightlines, force utility trades, and use mitigation before swinging."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "andrew",
+    "name": "Andrew",
+    "skill": "WOLF PACK",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - Armor durability loss decreases by 40% and armor DMG reduction increases by 4%. Obtains 1% DMG reduction bonus for each teammate present within 15m.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/andrew.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 4206,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Shield / mitigation",
+      "priority": "medium",
+      "bestUse": "Use to stabilize rushes, absorb shotgun bursts, or buy revive/reset time.",
+      "counterFocus": "Do not feed into the shield. Delay, flank, break cover, or punish after the duration."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "antonio",
+    "name": "Antonio",
+    "skill": "GANSTER SPIRIT",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - Gets 20 extra shield point at the start of match and recovers shield points after surviving combat",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/antonio.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 1301,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "medium",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "caroline",
+    "name": "Caroline",
+    "skill": "AGILITY",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - When holding a shotgun, movement speed increase by 16%",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/caroline.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 1101,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "situational",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "d-bee",
+    "name": "D-Bee",
+    "skill": "BULLET BEATS",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - When firing while moving, movement speed increases by 50%, accuracy increases by 60%",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/d-bee.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 4501,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "situational",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "dasha",
+    "name": "Dasha",
+    "skill": "PARTYING ON",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - After knocking down an enemy, enter Highlight Mode, which gain an 18% increase in fire rate and 12% in movement speed for 6s. Continuous knockdowns reset the timer and further boost fire rate by 4% and movement speed by 3%.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/dasha.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 3501,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "situational",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "ford",
+    "name": "Ford",
+    "skill": "IRON WILL",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - Gain 10 HP/s for 3s (previously 4) when taking damage. After releasing an active skill, this passive skill will reset immediately. Cooldown: 20s.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/ford.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 301,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "medium",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "hayato",
+    "name": "Hayato",
+    "skill": "BUSHIDO",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Every 10% HP lost, armor penetration increases by 3.5% and frontal DMG taken decreases by 2%.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/hayato.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 1506,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Shield / mitigation",
+      "priority": "medium",
+      "bestUse": "Use to stabilize rushes, absorb shotgun bursts, or buy revive/reset time.",
+      "counterFocus": "Do not feed into the shield. Delay, flank, break cover, or punish after the duration."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "j-biebs",
+    "name": "J.Biebs",
+    "skill": "SILENT SENTINEL",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - User and allies within 15m can block 8% damage using EP. In this case, the amount of EP deducted from allies will be added to the skill user's EP.",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/j-biebs.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 5701,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Shield / mitigation",
+      "priority": "high",
+      "bestUse": "Use to stabilize rushes, absorb shotgun bursts, or buy revive/reset time.",
+      "counterFocus": "Do not feed into the shield. Delay, flank, break cover, or punish after the duration."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "jai",
+    "name": "Jai",
+    "skill": "RAGING RELOAD",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - After knocking down an enemy or using an active skill, 100% of the gun's magazine reloads automatically",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/jai.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 3301,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Damage / weapon pressure",
+      "priority": "situational",
+      "bestUse": "Use to win weapon-specific duels and punish exposed targets before sustain can matter.",
+      "counterFocus": "Deny clean sightlines, force utility trades, and use mitigation before swinging."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "joseph",
+    "name": "Joseph",
+    "skill": "SILVER SPOON",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - Become immune from disruptive effects (e.g. slowdown, marking, skill-silencing) and have a 10% movement speed boost for 55. Cooldown: 45s.",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/joseph.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 2001,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "high",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "jota",
+    "name": "Jota",
+    "skill": "SUSTAINED RAIDS",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - When the skill user is using guns, hitting an enemy recovers some HP and knocking down an enemy recovers 20% HP",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/jota.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 2701,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "medium",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "kairos",
+    "name": "Kairos",
+    "skill": "DEFENSE BREAKER",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Defense Mode: Automatically recovers 2 EP/s until full. Breaker Mode: Activates with full EP when hitting shielded/armored enemies, consuming 20 EP/s (Nerfed:10 EP/s → 20 EP/s). Each hit reduces their Shield Points or Armor Durability by 90% (previously 120%) of the damage dealt. Returns to Defense Mode when EP reaches 0.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/kairos.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 6906,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "medium",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "kapella",
+    "name": "Kapella",
+    "skill": "REMEDY ROUNDS",
+    "skillType": "Passive",
+    "role": "TEAM WORK",
+    "description": "Passive - Heal teammates with ammo by 20% of the damage dealt. When using a Heal Pistol, increase healing effects by 20%.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/kapella.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 2801,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "medium",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "kelly",
+    "name": "Kelly",
+    "skill": "DASH",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - Sprinting speed increases by 6%. After sprinting for 4s, damage of the first 1 shot landed increases to 106%.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/kelly.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 2506,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "medium",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "kla",
+    "name": "Kla",
+    "skill": "MUAY THAI",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Fist damage increase by 400%",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/kla.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 801,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Damage / weapon pressure",
+      "priority": "low",
+      "bestUse": "Use to win weapon-specific duels and punish exposed targets before sustain can matter.",
+      "counterFocus": "Deny clean sightlines, force utility trades, and use mitigation before swinging."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "laura",
+    "name": "Laura",
+    "skill": "SHARP SHOOTER",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Accuracy increases by 60% (Buffed: 50% → 60%) when scoped in",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/laura.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 1701,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Damage / weapon pressure",
+      "priority": "situational",
+      "bestUse": "Use to win weapon-specific duels and punish exposed targets before sustain can matter.",
+      "counterFocus": "Deny clean sightlines, force utility trades, and use mitigation before swinging."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "leon",
+    "name": "Leon",
+    "skill": "BUZZER BEATER",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - 4s after being attacked, recover 4HP/s for 15s",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/leon.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 4901,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "medium",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "lila",
+    "name": "Lila",
+    "skill": "GLOO STRIKE",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - When Lila hits an enemy or a vehicle with an assault and marksman rifle, the enemy‚'s movement slows down by 10% or the vehicle's movement speed by 80% for 3 secs. If the enemy is knocked down while decelerated, freezes them for upto 3s and obtains 2 extra Gloo Wall.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/lila.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 7106,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Anti-Gloo / cover breaker",
+      "priority": "medium",
+      "bestUse": "Use to open compact defenses, punish revive/heal resets, and break chained Gloo Wall fights.",
+      "counterFocus": "Avoid over-layering Gloo Walls in one spot; use mobility, pre-shields, and wide spacing."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "luna",
+    "name": "Luna",
+    "skill": "FIGHT OR FLIGHT",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Increases firing rate by 5%. When user hits an enemy, a max of 10% of firing rate converts to movement speed. Skill resets when user survives combat.",
+    "changeStatus": "nerfed",
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/luna.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/",
+      "https://ff.garena.com/en/article/1712/"
+    ],
+    "lastReviewed": "2026-09-25",
+    "dataConfidence": "ob55_patch_changes_verified; unchanged fields retained from supplied reference",
+    "patchVersion": "OB55",
+    "apiId": 5301,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "high",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "luqueta",
+    "name": "Luqueta",
+    "skill": "HAT TRICK",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - Every elimination increases the max Shield Points permanently by 15. Max boost: 45. Clears the effect once the player is eliminated or the round is reset.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/luqueta.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 2901,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Shield / mitigation",
+      "priority": "medium",
+      "bestUse": "Use to stabilize rushes, absorb shotgun bursts, or buy revive/reset time.",
+      "counterFocus": "Do not feed into the shield. Delay, flank, break cover, or punish after the duration."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "maro",
+    "name": "Maro",
+    "skill": "FALCON FERVOR",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Damage increases with distance, up to 20%. Damage to marked enemies increases by 5%.",
+    "changeStatus": "nerfed",
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/maro.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": "OB54",
+    "apiId": 4301,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "medium",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "maxim",
+    "name": "Maxim",
+    "skill": "GLUTTONY",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - Eating mushrooms and using Med Kits faster by 25%",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/maxim.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 701,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "medium",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "miguel",
+    "name": "Miguel",
+    "skill": "CRAZY SLAYER",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Gain 200 EP for knocking down an enemy",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/miguel.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 1001,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Damage / weapon pressure",
+      "priority": "medium",
+      "bestUse": "Use to win weapon-specific duels and punish exposed targets before sustain can matter.",
+      "counterFocus": "Deny clean sightlines, force utility trades, and use mitigation before swinging."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "misha",
+    "name": "Misha",
+    "skill": "AFTERBURNER",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - Driving speed increases by 10%. While in vehicle, character is harder to be targeted at, and damage taken is decreased by 20%",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/misha.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 601,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Mobility / entry timing",
+      "priority": "low",
+      "bestUse": "Use for timing windows: first-contact entry, fast trade, crossfire break, or late-round reposition.",
+      "counterFocus": "Slow, scan, pre-aim, and force the entry to spend cooldown before the real fight."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "moco",
+    "name": "Moco",
+    "skill": "ENIGMAS EYE",
+    "skillType": "Passive",
+    "role": "INFO",
+    "description": "Passive - Marks the enemy hit, exposes their location in the FOV, the minimap and shares it with teammates for 3s. The enemy, if moving while marked, will have their location exposed for a longer time, up to 4s.",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/moco.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 1401,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "high",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "nairi",
+    "name": "Nairi",
+    "skill": "ICE IRON",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - Within 1.5s (Nerfed:2.1s → 1.5s) after deploying Gloo Walls, restores 106 durability/ for them and restores 10HP/s for teammates within 5m. The healing effect cannot be stacked by deploying multiple Gloo Walls.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/nairi.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 5201,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Anti-Gloo / cover breaker",
+      "priority": "medium",
+      "bestUse": "Use to open compact defenses, punish revive/heal resets, and break chained Gloo Wall fights.",
+      "counterFocus": "Avoid over-layering Gloo Walls in one spot; use mobility, pre-shields, and wide spacing."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "nikita",
+    "name": "Nikita",
+    "skill": "FIREARMS EXPERT",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Reload speed increases by 20%. Every time the skill user hits an enemy, the target receives a 50% healing deduction for 6s. Max deduction: 50%.",
+    "changeStatus": "nerfed",
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/nikita.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": "OB54",
+    "apiId": 501,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "high",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "notora",
+    "name": "Notora",
+    "skill": "RACER'S BLESSING",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - When driving, restores 5 HP every 2s for everyone in the vehicle, up to a maximum of 200 HP.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/notora.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 2401,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Situational CS utility",
+      "priority": "low",
+      "bestUse": "Use only when the map, store, or team composition gives the skill a clear purpose.",
+      "counterFocus": "Do not overreact in draft unless the opponent has a clear combo around it."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "olivia",
+    "name": "Olivia",
+    "skill": "HEALING TOUCH",
+    "skillType": "Passive",
+    "role": "TEAM WORK",
+    "description": "Passive - Increases healing effects by 30% and spreads 90% of the user's single-target healing amount to teammates within 20m.",
+    "changeStatus": "buffed",
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/olivia.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": "OB54",
+    "apiId": 101,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "high",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "otho",
+    "name": "Otho",
+    "skill": "MEMORY MIST",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - After knocking down enemy, mark enemies within 20m and slows their movement by 25%. Lasts for 3s. When user is knocked, marks and slows down nearby enemies",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/otho.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 5001,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "medium",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "skill": "SHATTERBURST",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Weapon accuracy increases for 10s after destroying a Gloo Wall.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/paloma.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 901,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Anti-Gloo / cover breaker",
+      "priority": "medium",
+      "bestUse": "Use to open compact defenses, punish revive/heal resets, and break chained Gloo Wall fights.",
+      "counterFocus": "Avoid over-layering Gloo Walls in one spot; use mobility, pre-shields, and wide spacing."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "rafael",
+    "name": "Rafael",
+    "skill": "DEAD SILENT",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - When using Snipers or Marksmen rifles, firing sound is silenced and knocked enemies bleed 85% faster",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/rafael.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 1801,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "medium",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "rin",
+    "name": "Rin",
+    "skill": "GALE OF KUNAI",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Summons a kunai nearby every 8s, up to 3 kunai in total. The kunai can deal significant damage to Gloo Walls and will auto-target at any enemy or Gloo Wall that the user hits, dealing up to 12 DMG. The damage increases with distance.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/rin.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 7506,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Anti-Gloo / cover breaker",
+      "priority": "medium",
+      "bestUse": "Use to open compact defenses, punish revive/heal resets, and break chained Gloo Wall fights.",
+      "counterFocus": "Avoid over-layering Gloo Walls in one spot; use mobility, pre-shields, and wide spacing."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "shani",
+    "name": "Shani",
+    "skill": "GEAR RECYCLE",
+    "skillType": "Passive",
+    "role": "TEAM WORK",
+    "description": "Passive - When using an active skill, gives 30 Shield Points to self and team mates within 10m, The Shield Points decay after 5s, after which players can obtain the effect again. Cooldown: 10s",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/shani.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 2101,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Shield / mitigation",
+      "priority": "high",
+      "bestUse": "Use to stabilize rushes, absorb shotgun bursts, or buy revive/reset time.",
+      "counterFocus": "Do not feed into the shield. Delay, flank, break cover, or punish after the duration."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "shirou",
+    "name": "Shirou",
+    "skill": "DAMAGE DELIVERED",
+    "skillType": "Passive",
+    "role": "INFO",
+    "description": "Passive - When user is hit by enemy from within 100m, said attacker is marked for 8s (intel is shared with teammates.) Max 4 markings.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/shirou.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 4101,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "medium",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "sonia",
+    "name": "Sonia",
+    "skill": "NANO LIFESHIELD",
+    "skillType": "Passive",
+    "role": "SURVIVAL",
+    "description": "Passive - After taking fatal damage, enter an invulnerable and immobile state for 0.4s. Then, gain a 1 HP shield (50 HP Shield → 1 HP Shield) that lasts for 2s. The skill user will be eliminated when the shield disappears. Cooldown: 180s.",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/sonia.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 6506,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Shield / mitigation",
+      "priority": "medium",
+      "bestUse": "Use to stabilize rushes, absorb shotgun bursts, or buy revive/reset time.",
+      "counterFocus": "Do not feed into the shield. Delay, flank, break cover, or punish after the duration."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "suzy",
+    "name": "Suzy",
+    "skill": "MONEY MARK",
+    "skillType": "Passive",
+    "role": "INFO",
+    "description": "Passive - Your enemy markings have bounty value. Anyone on ally team who eliminates a marked enemy will earn 200 in-match currency. You will earn an extra 100 for eliminating an enemy. Receive extra 100 FF Coins from Coin Machines in BR matches.",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/suzy.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 6606,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Information / tracking",
+      "priority": "medium",
+      "bestUse": "Use to clear tight angles before committing to a rush or to punish lurkers during Cyber Airdrop fights.",
+      "counterFocus": "Use immunity, stealth, decoys, off-angles, and quick reposition after being detected."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "thiva",
+    "name": "Thiva",
+    "skill": "VITAL VIBES",
+    "skillType": "Passive",
+    "role": "TEAM WORK",
+    "description": "Passive - The speed of helping up teammates is increased by 70%. Cooldown: 90s. The helped up teammates recovers 60HP in 3s",
+    "changeStatus": null,
+    "metaBr": true,
+    "metaCs": true,
+    "imageLocal": "/assets/characters/thiva.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 4601,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Sustain / heal value",
+      "priority": "high",
+      "bestUse": "Use to win repeated trades across short CS rounds, especially when paired with anti-burst cover or info.",
+      "counterFocus": "Apply anti-heal, burst damage, and zone denial before the support cycle starts."
+    },
+    "csPerkNote": null
+  },
+  {
+    "id": "wolfrahh",
+    "name": "Wolfrahh",
+    "skill": "LIMELIGHT",
+    "skillType": "Passive",
+    "role": "ATTACK",
+    "description": "Passive - Every elimination will add one spectator, and the number of spectators will not reduce. With each additional spectator, damage taken from headshots reduces by 4% (max. 12%) and headshot damage to enemies increases by 10% (max. 30%).",
+    "changeStatus": null,
+    "metaBr": false,
+    "metaCs": false,
+    "imageLocal": "/assets/characters/wolfrahh.png",
+    "sources": [
+      "https://ff.garena.com/en/article/1673/"
+    ],
+    "lastReviewed": "2026-06-29",
+    "dataConfidence": "ob54_reviewed_user_json_plus_official_patch_notes",
+    "patchVersion": null,
+    "apiId": 3001,
+    "skillBoosts": [],
+    "csAnalysis": {
+      "archetype": "Damage / weapon pressure",
+      "priority": "situational",
+      "bestUse": "Use to win weapon-specific duels and punish exposed targets before sustain can matter.",
+      "counterFocus": "Deny clean sightlines, force utility trades, and use mitigation before swinging."
+    },
+    "csPerkNote": null
+  }
+]

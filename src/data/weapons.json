@@ -1,0 +1,2150 @@
+[
+  {
+    "id": "ak47",
+    "name": "AK47",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 32,
+    "rateOfFire": 56,
+    "range": 72,
+    "magazineSize": 30,
+    "specialAttributes": [],
+    "description": "The weapon has a high damage of 38 and a medium range and a medium rate of fire. The weapon has also low accuracy which makes it require a skill to control.",
+    "availableInClashSquad": true,
+    "price": 1500,
+    "armory": "Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/ak47.png"
+  },
+  {
+    "id": "an94",
+    "name": "AN94",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 36,
+    "rateOfFire": 58,
+    "range": 55,
+    "magazineSize": 30,
+    "specialAttributes": [
+      "Moderate damage, stable recoil; effective mid-range."
+    ],
+    "description": "A reliable assault rifle with moderate damage and stability, suitable for mid-range combat.",
+    "availableInClashSquad": true,
+    "price": 1000,
+    "armory": "Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/an94.png"
+  },
+  {
+    "id": "aug",
+    "name": "AUG",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 31,
+    "rateOfFire": 61,
+    "range": 56,
+    "magazineSize": 35,
+    "specialAttributes": [
+      "Pre-attached Scope",
+      "Full Attachment Support",
+      "Balanced Stats",
+      "Low Recoil"
+    ],
+    "description": "A reliable mid-range assault rifle equipped with a pre-attached 2x scope. The AUG boasts a fast rate of fire and balanced damage, making it a versatile weapon for both Battle Royale and Clash Squad modes. Its compatibility with all attachments gives players the freedom to tailor it to their combat style.",
+    "availableInClashSquad": true,
+    "price": 1400,
+    "armory": "Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/aug.png"
+  },
+  {
+    "id": "famas",
+    "name": "FAMAS",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 53,
+    "rateOfFire": 67,
+    "range": 70,
+    "magazineSize": 30,
+    "specialAttributes": [],
+    "description": "Famas fires 3 bullets at a time with 53 damage for each and a fast rate of fire and a medium accuracy. The weapon is good for Medium-Long range.",
+    "availableInClashSquad": true,
+    "price": 1600,
+    "armory": "Regular CS Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 CS source adjustment: Regular CS Store price 1800 → 1600 CS Cash."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/famas.png"
+  },
+  {
+    "id": "g36",
+    "name": "G36",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 57,
+    "rateOfFire": 57,
+    "range": 57,
+    "magazineSize": 30,
+    "specialAttributes": [],
+    "description": "Balanced assault rifle using AR ammo. Good mid-range combat efficiency.",
+    "availableInClashSquad": true,
+    "price": 1100,
+    "armory": "Kelly, Laura",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/g36.png"
+  },
+  {
+    "id": "groza",
+    "name": "Groza",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 61,
+    "rateOfFire": 58,
+    "range": 77,
+    "magazineSize": 30,
+    "specialAttributes": [
+      "Rare airdrop weapon with high stability."
+    ],
+    "description": "An airdrop-exclusive rifle offering a balance of high damage, stability, and range.",
+    "availableInClashSquad": true,
+    "price": 2800,
+    "armory": "Crazy Store, Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/groza.png"
+  },
+  {
+    "id": "kingfisher",
+    "name": "Kingfisher",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 52,
+    "rateOfFire": 69,
+    "range": 55,
+    "magazineSize": 22,
+    "specialAttributes": [
+      "Pre-attached 2x scope, accepts muzzle, foregrip, magazine, scope, and stock attachments, high movement speed"
+    ],
+    "description": "The Kingfisher is a lightweight assault rifle featuring a pre-attached 2x scope and compatibility with various attachments. Its high rate of fire and mobility make it effective for mid-range engagements, allowing for quick and agile combat maneuvers.",
+    "availableInClashSquad": true,
+    "price": 1000,
+    "armory": "Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/kingfisher.png"
+  },
+  {
+    "id": "m14",
+    "name": "M14",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 77,
+    "rateOfFire": 43,
+    "range": 76,
+    "magazineSize": 15,
+    "specialAttributes": [
+      "Longest range among ARs; semi-automatic firing mode."
+    ],
+    "description": "A semi-automatic rifle with exceptional range, making it effective for long-distance engagements.",
+    "availableInClashSquad": true,
+    "price": 1700,
+    "armory": "Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m14.png"
+  },
+  {
+    "id": "m4a1",
+    "name": "M4A1",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 29,
+    "rateOfFire": 57,
+    "range": 79,
+    "magazineSize": 30,
+    "specialAttributes": [],
+    "description": "M4A1 has a damage of 52 or 13 damage and a medium range. The weapon has also a medium accuracy and a high rate of fire which make It one of the most balanced weapons in the game.",
+    "availableInClashSquad": true,
+    "price": 1700,
+    "armory": "Crazy Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m4a1.png"
+  },
+  {
+    "id": "parafal",
+    "name": "PARAFAL",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 48,
+    "rateOfFire": 48,
+    "range": 58,
+    "magazineSize": 30,
+    "specialAttributes": [
+      "High damage per shot and range for an AR, lower rate of fire."
+    ],
+    "description": "A powerful assault rifle delivering high damage per shot, ideal for players who prefer precision over rapid fire.",
+    "availableInClashSquad": true,
+    "price": 1400,
+    "armory": "Crazy Store, Competitive Store",
+    "aliases": [
+      "Parafal"
+    ],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/parafal.png"
+  },
+  {
+    "id": "plasma",
+    "name": "PLASMA",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": null,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Energy weapon that overheats if fired for too long."
+    ],
+    "description": "High-tech rifle that uses energy to fire instead of conventional ammunition.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [
+      "Foregrip",
+      "Stock"
+    ],
+    "recentUpdates": [
+      "OB53 adjustment: Added Foregrip and Stock attachment slots."
+    ],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)",
+      "Garena OB53 Patch Notes (2026-04-02)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_plus_ob53_notes",
+    "imageLocal": "/assets/weapons/plasma.png"
+  },
+  {
+    "id": "scar",
+    "name": "SCAR",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 53,
+    "rateOfFire": 61,
+    "range": 60,
+    "magazineSize": 30,
+    "specialAttributes": [
+      "Balanced stats with low recoil."
+    ],
+    "description": "An assault rifle favored for its stability and balanced performance across various combat scenarios.",
+    "availableInClashSquad": true,
+    "price": 1800,
+    "armory": "Competitive Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/scar.png"
+  },
+  {
+    "id": "xm8",
+    "name": "XM8",
+    "type": "Assault Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 57,
+    "rateOfFire": 65,
+    "range": 60,
+    "magazineSize": 25,
+    "specialAttributes": [
+      "Pre-attached 2x scope, high accuracy, stable recoil, compatible with silencer, muzzle, magazine, and stock attachments"
+    ],
+    "description": "The XM8 is a versatile assault rifle equipped with a built-in 2x scope, offering high accuracy and stability. Its balanced stats make it suitable for mid to long-range combat, providing a reliable option for various combat scenarios.",
+    "availableInClashSquad": true,
+    "price": 1500,
+    "armory": "Crazy Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/xm8.png"
+  },
+  {
+    "id": "treatment-laser-gun",
+    "name": "Treatment Laser Gun",
+    "type": "Assault Rifle / Healing Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 30,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Locks aim on teammates and heals them at mid range."
+    ],
+    "description": "Support weapon that can lock onto a teammate and heal them; stay close to maintain effectiveness.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/treatment-laser-gun.png"
+  },
+  {
+    "id": "shield-gun",
+    "name": "Shield Gun",
+    "type": "Assault Rifle / Utility Rifle",
+    "primaryType": "Assault Rifle",
+    "damage": 53,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": 25,
+    "specialAttributes": [
+      "Generates a force-field shield that protects the user; a new shield generates even if damaged."
+    ],
+    "description": "Modified rifle built around defensive shield generation for mid-range fights.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 adjustment: Rate of Fire +30%; Accuracy -10%; Movement Speed -8%; Reload Speed -40%; Magazine Capacity 30 → 25.",
+      "OB53 source adjustment: Now available as ground loot in Solara as well as NeXTerra."
+    ],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)",
+      "Garena OB53 Patch Notes (2026-04-02)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_plus_ob53_notes",
+    "imageLocal": "/assets/weapons/shield-gun.png"
+  },
+  {
+    "id": "crossbow",
+    "name": "Crossbow",
+    "type": "Bow",
+    "primaryType": "Bow",
+    "damage": 90,
+    "rateOfFire": 48,
+    "range": 36,
+    "magazineSize": 1,
+    "specialAttributes": [
+      "Damage over time; silent; pierces armor; long reload time."
+    ],
+    "description": "Silent bow weapon whose bolts cause bleeding damage over time and pierce vests and helmets.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/crossbow.png"
+  },
+  {
+    "id": "m79",
+    "name": "M79",
+    "type": "Launcher",
+    "primaryType": "Launcher",
+    "damage": 90,
+    "rateOfFire": 27,
+    "range": 51,
+    "magazineSize": 1,
+    "specialAttributes": [
+      "Area of effect damage, projectile-based explosive, rare spawn, no attachments"
+    ],
+    "description": "The M79 is a single-shot grenade launcher that deals explosive damage over an area. It's ideal for eliminating enemies behind cover but requires precise aim and timing due to its limited ammo and rarity.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m79.png"
+  },
+  {
+    "id": "mgl140",
+    "name": "MGL140",
+    "type": "Launcher",
+    "primaryType": "Launcher",
+    "damage": 90,
+    "rateOfFire": 33,
+    "range": 51,
+    "magazineSize": 5,
+    "specialAttributes": [
+      "Area of effect; high damage."
+    ],
+    "description": "Grenade launcher with a mid-sized magazine, low rate of fire, and high explosive power.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/mgl140.png"
+  },
+  {
+    "id": "rgs-50",
+    "name": "RGS-50",
+    "type": "Launcher",
+    "primaryType": "Launcher",
+    "damage": 90,
+    "rateOfFire": 27,
+    "range": 100,
+    "magazineSize": 3,
+    "specialAttributes": [
+      "High damage to vehicles, lock-on targeting system, reduced damage to players, rare weapon"
+    ],
+    "description": "The RGS50 is a powerful launcher designed to target and destroy vehicles with precision. It features a lock-on system for easier targeting but is less effective against players.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [
+      "RGS50"
+    ],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/rgs-50.png"
+  },
+  {
+    "id": "gatling",
+    "name": "Gatling",
+    "type": "Light Machine Gun",
+    "primaryType": "Light Machine Gun",
+    "damage": 55,
+    "rateOfFire": 56,
+    "range": 84,
+    "magazineSize": 1200,
+    "specialAttributes": [
+      "Insane rate of fire and firepower; low mobility while using."
+    ],
+    "description": "Heavy machine gun with extremely large ammo capacity and suppressive fire potential.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/gatling.png"
+  },
+  {
+    "id": "kord",
+    "name": "Kord",
+    "type": "Light Machine Gun",
+    "primaryType": "Light Machine Gun",
+    "damage": 60,
+    "rateOfFire": 56,
+    "range": 84,
+    "magazineSize": 80,
+    "specialAttributes": [
+      "Mounted Mode: Crouch/prone to fire in 3-shot bursts with increased speed."
+    ],
+    "description": "The Kord offers powerful damage and range. Its mounted mode allows for burst-fire when crouching or prone, ideal for base defense or ambush tactics.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [
+      "Foregrip",
+      "Stock"
+    ],
+    "recentUpdates": [
+      "OB53: Added Foregrip and Stock attachment slots."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/kord.png"
+  },
+  {
+    "id": "m249",
+    "name": "M249",
+    "type": "Light Machine Gun",
+    "primaryType": "Light Machine Gun",
+    "damage": 57,
+    "rateOfFire": 59,
+    "range": 79,
+    "magazineSize": 100,
+    "specialAttributes": [
+      "High-capacity LMG; ideal for sustained suppressive fire."
+    ],
+    "description": "The M249 is a rare airdrop weapon equipped with a 100-round magazine, offering powerful suppressive capabilities in mid to long-range fights.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m249.png"
+  },
+  {
+    "id": "m60",
+    "name": "M60",
+    "type": "Light Machine Gun",
+    "primaryType": "Light Machine Gun",
+    "damage": 56,
+    "rateOfFire": 56,
+    "range": 65,
+    "magazineSize": 60,
+    "specialAttributes": [
+      "Enters 'Machine Gun Mode' when scoped, increasing fire rate."
+    ],
+    "description": "The M60 is a stable LMG with decent range and fire rate. Its special mode activates while aiming, giving it an increased rate of fire, perfect for suppressive tactics.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m60.png"
+  },
+  {
+    "id": "ac80",
+    "name": "AC80",
+    "type": "Marksman Rifle",
+    "primaryType": "Marksman Rifle",
+    "damage": 71,
+    "rateOfFire": 36,
+    "range": 78,
+    "magazineSize": 10,
+    "specialAttributes": [
+      "Two consecutive shots on target trigger additional damage."
+    ],
+    "description": "Ideal for mid to long-range engagements.",
+    "availableInClashSquad": true,
+    "price": 1800,
+    "armory": "Crazy Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 nerf: Damage -6%; Extra Damage to Shield Points 20% → 0%."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/ac80.png"
+  },
+  {
+    "id": "sks",
+    "name": "SKS",
+    "type": "Marksman Rifle",
+    "primaryType": "Marksman Rifle",
+    "damage": 82,
+    "rateOfFire": 35,
+    "range": 82,
+    "magazineSize": 10,
+    "specialAttributes": [
+      "Semi-auto sniper rifle that comes pre-equipped with a scope; balanced marksman option."
+    ],
+    "description": "The SKS is a semi-automatic sniper rifle that comes pre-attached with a 4x scope, offering a balance between rapid firing and long-range accuracy.",
+    "availableInClashSquad": true,
+    "price": 1800,
+    "armory": "Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 adjustment: Rate of Fire +6%; Range +15%; Reload Speed +10%; Magazine Capacity 16 → 10."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/sks.png"
+  },
+  {
+    "id": "svd",
+    "name": "SVD",
+    "type": "Marksman Rifle",
+    "primaryType": "Marksman Rifle",
+    "damage": 89,
+    "rateOfFire": 34,
+    "range": 80,
+    "magazineSize": 10,
+    "specialAttributes": [
+      "Airdrop-only marksman rifle with very high damage per shot; semi-automatic."
+    ],
+    "description": "The Dragunov is a highly accurate and powerful automatic sniper rifle that only appears in resupply points and airdrops, making it a rare and valuable weapon on the battlefield.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/svd.png"
+  },
+  {
+    "id": "winchester",
+    "name": "Winchester",
+    "type": "Marksman Rifle",
+    "primaryType": "Marksman Rifle",
+    "damage": 72,
+    "rateOfFire": 38,
+    "range": 63,
+    "magazineSize": 12,
+    "specialAttributes": [
+      "A lever-action, fully automatic marksman rifle with a distinctive firing rhythm and reload mechanism."
+    ],
+    "description": "A lever-action, fully automatic marksman rifle with a distinctive firing rhythm and reload mechanism.",
+    "availableInClashSquad": true,
+    "price": 1800,
+    "armory": "Crazy Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 source adjustment: Winchester-III available in CS Cyber Items for 1900 CS Cash."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/winchester.png"
+  },
+  {
+    "id": "woodpecker",
+    "name": "Woodpecker",
+    "type": "Marksman Rifle",
+    "primaryType": "Marksman Rifle",
+    "damage": 72,
+    "rateOfFire": 38,
+    "range": 63,
+    "magazineSize": 12,
+    "specialAttributes": [
+      "Marksman rifle with extremely high armor penetration, great against helmets and vests."
+    ],
+    "description": "The M21 Woodpecker uses AR ammo and is known for its high armor-piercing abilities, making it precise and deadly against armored opponents.",
+    "availableInClashSquad": true,
+    "price": 1800,
+    "armory": "Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/woodpecker.png"
+  },
+  {
+    "id": "bat",
+    "name": "Bat",
+    "type": "Melee",
+    "primaryType": "Melee",
+    "damage": 63,
+    "rateOfFire": 33,
+    "range": 5,
+    "magazineSize": 0,
+    "specialAttributes": [
+      "Melee; high mobility."
+    ],
+    "description": "Melee weapon with slightly further reach than the Pan but a lower chance of deflecting bullets due to its shape.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/bat.png"
+  },
+  {
+    "id": "ff-knife",
+    "name": "FF Knife",
+    "type": "Melee",
+    "primaryType": "Melee",
+    "damage": null,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": 3,
+    "specialAttributes": [
+      "High damage at close range."
+    ],
+    "description": "Iconic throwable/knife-style close-range weapon listed in the official melee catalog.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/ff-knife.png"
+  },
+  {
+    "id": "katana",
+    "name": "Katana",
+    "type": "Melee",
+    "primaryType": "Melee",
+    "damage": 66,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Melee, Shield"
+    ],
+    "description": "Samurai’s favorite sword. Melee weapon; blocks bullets like a shield.",
+    "availableInClashSquad": true,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/katana.png"
+  },
+  {
+    "id": "pan",
+    "name": "Pan",
+    "type": "Melee",
+    "primaryType": "Melee",
+    "damage": 62,
+    "rateOfFire": 35,
+    "range": 5,
+    "magazineSize": 0,
+    "specialAttributes": [
+      "Melee; shield."
+    ],
+    "description": "Classic defensive melee item that can protect the wearer from incoming fire.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/pan.png"
+  },
+  {
+    "id": "parang",
+    "name": "Parang",
+    "type": "Melee",
+    "primaryType": "Melee",
+    "damage": 66,
+    "rateOfFire": 32,
+    "range": 5,
+    "magazineSize": 0,
+    "specialAttributes": [
+      "Melee; shield; outranges the Pan."
+    ],
+    "description": "Sword-like melee weapon with defensive utility and slightly longer melee reach.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/parang.png"
+  },
+  {
+    "id": "scythe",
+    "name": "Scythe",
+    "type": "Melee",
+    "primaryType": "Melee",
+    "damage": 90,
+    "rateOfFire": 30,
+    "range": 6,
+    "magazineSize": 0,
+    "specialAttributes": [
+      "Melee, High Damage"
+    ],
+    "description": "A high-damage melee weapon with a relatively long effective range. Can be used as a shield until destroyed by bullets.",
+    "availableInClashSquad": true,
+    "price": null,
+    "armory": "Crazy Store, Competitive Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/scythe.png"
+  },
+  {
+    "id": "desert-eagle",
+    "name": "Desert Eagle",
+    "type": "Pistol",
+    "primaryType": "Pistol",
+    "damage": 90,
+    "rateOfFire": 33,
+    "range": 69,
+    "magazineSize": 7,
+    "specialAttributes": [
+      "High damage, precise shots. Pocket sniper pistol."
+    ],
+    "description": "The Desert Eagle is a heavy pistol capable of dealing high burst damage. Best used for mid-range fights, it's a reliable sidearm for precise headshots.",
+    "availableInClashSquad": true,
+    "price": 900,
+    "armory": "Competitive Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/desert-eagle.png"
+  },
+  {
+    "id": "g18",
+    "name": "G18",
+    "type": "Pistol",
+    "primaryType": "Pistol",
+    "damage": 45,
+    "rateOfFire": 64,
+    "range": 36,
+    "magazineSize": 15,
+    "specialAttributes": [],
+    "description": "G18 is a Pistol with HG Ammo. G18 has a low damage 20 per bullet and a close range. The weapon has also a high accuracy and a fast rate of fire. the gun looks like Glock 17 or 18/19",
+    "availableInClashSquad": true,
+    "price": 500,
+    "armory": "Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/g18.png"
+  },
+  {
+    "id": "hand-cannon",
+    "name": "Hand Cannon",
+    "type": "Pistol",
+    "primaryType": "Pistol",
+    "damage": 90,
+    "rateOfFire": 27,
+    "range": 10,
+    "magazineSize": 2,
+    "specialAttributes": [],
+    "description": "Hand Cannon is a pistol with 40mm Ammo. Slow rate of fire and a medium range. It also has a high damage and a high accuracy.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/hand-cannon.png"
+  },
+  {
+    "id": "m1873",
+    "name": "M1873",
+    "type": "Pistol",
+    "primaryType": "Pistol",
+    "damage": 94,
+    "rateOfFire": 35,
+    "range": 8,
+    "magazineSize": 2,
+    "specialAttributes": [
+      "Sawed-off shotgun sidearm with double-barrel burst."
+    ],
+    "description": "The M1873 is a powerful secondary weapon that functions like a mini-shotgun. With just two shots, it can devastate enemies up close before switching back to a primary weapon.",
+    "availableInClashSquad": true,
+    "price": 500,
+    "armory": "Crazy Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m1873.png"
+  },
+  {
+    "id": "m1917",
+    "name": "M1917",
+    "type": "Pistol",
+    "primaryType": "Pistol",
+    "damage": 60,
+    "rateOfFire": 57,
+    "range": 28,
+    "magazineSize": 12,
+    "specialAttributes": [],
+    "description": "Double-barrel pistol (sidearm slot). Two shots per reload; “one for the enemy, one for the traitor”.",
+    "availableInClashSquad": true,
+    "price": 900,
+    "armory": "Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m1917.png"
+  },
+  {
+    "id": "m500",
+    "name": "M500",
+    "type": "Pistol",
+    "primaryType": "Pistol",
+    "damage": 67,
+    "rateOfFire": 43,
+    "range": 76,
+    "magazineSize": 5,
+    "specialAttributes": [
+      "Comes pre-equipped with a 2x scope for long-range precision."
+    ],
+    "description": "The M500 is a revolver with built-in range, capable of early-game long-distance knockouts. It's the perfect sidearm for players who favor range over speed.",
+    "availableInClashSquad": true,
+    "price": 400,
+    "armory": "Crazy Store, Competitive Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m500.png"
+  },
+  {
+    "id": "usp",
+    "name": "USP",
+    "type": "Pistol",
+    "primaryType": "Pistol",
+    "damage": 45,
+    "rateOfFire": 44,
+    "range": 29,
+    "magazineSize": 12,
+    "specialAttributes": [],
+    "description": "USP is a Pistol with HG Ammo. USP has a low damage of 45 and a close range. The weapon has also a high accuracy and a medium rate of fire. the gun is identical to the Heckler & Koch USP in real life.",
+    "availableInClashSquad": true,
+    "price": 0,
+    "armory": "Crazy Store, Competitive Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/usp.png"
+  },
+  {
+    "id": "usp-2",
+    "name": "USP-2",
+    "type": "Pistol",
+    "primaryType": "Pistol",
+    "damage": 45,
+    "rateOfFire": 61,
+    "range": 29,
+    "magazineSize": 12,
+    "specialAttributes": [
+      "Double-Wielded"
+    ],
+    "description": "Dual-wielded version of USP. Fires in both hands; moderate damage with high mobility.",
+    "availableInClashSquad": true,
+    "price": 500,
+    "armory": "Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/usp-2.png"
+  },
+  {
+    "id": "uzi",
+    "name": "UZI",
+    "type": "Pistol",
+    "primaryType": "Pistol",
+    "damage": 15,
+    "rateOfFire": 90,
+    "range": 10,
+    "magazineSize": 20,
+    "specialAttributes": [
+      "High fire rate; close range; highly mobile and compact."
+    ],
+    "description": "Official catalog name: UZI. Highly mobile and compact sidearm; simple but deadly at close range.",
+    "availableInClashSquad": true,
+    "price": 900,
+    "armory": "Crazy Store, Competitive Store",
+    "aliases": [
+      "Mini Uzi"
+    ],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [
+      "Official catalog name is UZI; previous reference name was Mini Uzi."
+    ],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_updated_with_official_catalog_name",
+    "imageLocal": "/assets/weapons/uzi.png"
+  },
+  {
+    "id": "fgl-24",
+    "name": "FGL-24",
+    "type": "Pistol / Explosive",
+    "primaryType": "Pistol",
+    "damage": null,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": 17,
+    "specialAttributes": [
+      "Explosive bullets that spray flames; area-of-effect extra damage."
+    ],
+    "description": "Explosive sidearm whose bullets explode and spray flames.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/fgl-24.png"
+  },
+  {
+    "id": "healing-pistol",
+    "name": "Healing Pistol",
+    "type": "Pistol / Healing",
+    "primaryType": "Pistol",
+    "damage": 30,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Damages enemies and heals allies."
+    ],
+    "description": "Treatment gun-style pistol for close-range ally healing and enemy damage.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/healing-pistol.png"
+  },
+  {
+    "id": "flamethrower",
+    "name": "Flamethrower",
+    "type": "Pistol / Special",
+    "primaryType": "Pistol",
+    "damage": null,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": 200,
+    "specialAttributes": [
+      "Close-range flame weapon with high armor penetration; deadly against humans, vehicles, and Gloo Walls."
+    ],
+    "description": "Close-range weapon that spits fire and applies strong pressure to players, vehicles, and Gloo Walls.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/flamethrower.png"
+  },
+  {
+    "id": "flash-freeze",
+    "name": "Flash Freeze",
+    "type": "Projectile / Throwable",
+    "primaryType": "Projectile",
+    "damage": 0,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Slowdown and damage over time."
+    ],
+    "description": "Creates a frozen zone on explosion that slows enemies and causes damage.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/flash-freeze.png"
+  },
+  {
+    "id": "gloo-melter",
+    "name": "Gloo Melter",
+    "type": "Projectile / Throwable",
+    "primaryType": "Projectile",
+    "damage": 0,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Throwable; extra damage to Gloo Walls."
+    ],
+    "description": "Creates a corrosive area after exploding. Gloo Walls inside take damage and also receive more damage from attacks.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/gloo-melter.png"
+  },
+  {
+    "id": "gloo-wall",
+    "name": "Gloo Wall",
+    "type": "Projectile / Utility",
+    "primaryType": "Projectile",
+    "damage": 0,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Shield / instant cover."
+    ],
+    "description": "Deployable wall used to create cover and survive open-field pressure.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/gloo-wall.png"
+  },
+  {
+    "id": "bizon",
+    "name": "Bizon",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 25,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": 35,
+    "specialAttributes": [
+      "High Damage Burst"
+    ],
+    "description": "SMG with large magazine. High burst damage but low stability.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/bizon.png"
+  },
+  {
+    "id": "cg15",
+    "name": "CG15",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 50,
+    "rateOfFire": 69,
+    "range": 71,
+    "magazineSize": 20,
+    "specialAttributes": [
+      "Chargeable high-damage shot; long-range SMG profile."
+    ],
+    "description": "Future-tech SMG that can charge up and fire a high-damage shot.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_catalog_description",
+    "imageLocal": "/assets/weapons/cg15.png"
+  },
+  {
+    "id": "mac10",
+    "name": "MAC10",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 41,
+    "rateOfFire": 77,
+    "range": 22,
+    "magazineSize": 42,
+    "specialAttributes": [
+      "High Fire Rate, Silenced"
+    ],
+    "description": "Suppressed SMG with a silencer built-in. Balanced stats and very high rate of fire.",
+    "availableInClashSquad": true,
+    "price": 1300,
+    "armory": "Crazy Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/mac10.png"
+  },
+  {
+    "id": "mp40",
+    "name": "MP40",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 48,
+    "rateOfFire": 83,
+    "range": 22,
+    "magazineSize": 20,
+    "specialAttributes": [
+      "Extremely high rate of fire for close quarters; limited range and attachments."
+    ],
+    "description": "A submachine gun with an unparalleled rate of fire, ideal for close-quarters combat.",
+    "availableInClashSquad": true,
+    "price": 1800,
+    "armory": "Competitive Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/mp40.png"
+  },
+  {
+    "id": "mp5",
+    "name": "MP5",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 48,
+    "rateOfFire": 76,
+    "range": 41,
+    "magazineSize": 48,
+    "specialAttributes": [],
+    "description": "MP5 is a Submachine Gun using SMG Ammo. This weapon has a DPS of 48 and a fast rate of fire as a Submachine Gun. The weapon has high accuracy and usable from short to medium range.",
+    "availableInClashSquad": true,
+    "price": 1300,
+    "armory": "Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/mp5.png"
+  },
+  {
+    "id": "p90",
+    "name": "P90",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 49,
+    "rateOfFire": 76,
+    "range": 27,
+    "magazineSize": 50,
+    "specialAttributes": [
+      "Large magazine size SMG ideal for continuous fire in close combat."
+    ],
+    "description": "An SMG with a large magazine capacity, allowing for sustained fire during intense close-range battles.",
+    "availableInClashSquad": true,
+    "price": 1500,
+    "armory": "Crazy Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/p90.png"
+  },
+  {
+    "id": "thompson",
+    "name": "Thompson",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 50,
+    "rateOfFire": 77,
+    "range": 33,
+    "magazineSize": 42,
+    "specialAttributes": [
+      "Drum magazine SMG with high capacity and solid damage output."
+    ],
+    "description": "A submachine gun featuring a drum magazine, offering high capacity and consistent damage output. Thompson-X = 2600",
+    "availableInClashSquad": true,
+    "price": 1500,
+    "armory": "Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/thompson.png"
+  },
+  {
+    "id": "ump",
+    "name": "UMP",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 50,
+    "rateOfFire": 75,
+    "range": 36,
+    "magazineSize": 48,
+    "specialAttributes": [
+      "High armor penetration SMG, making it very effective even against armored enemies."
+    ],
+    "description": "A versatile SMG with high armor penetration, effective against both unarmored and armored opponents.",
+    "availableInClashSquad": true,
+    "price": 1500,
+    "armory": "Crazy Store, Competitive Store",
+    "aliases": [],
+    "attachments": [
+      "Muzzle"
+    ],
+    "recentUpdates": [
+      "OB53 buff: Range +5%; added Muzzle attachment slot."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/ump.png"
+  },
+  {
+    "id": "vector",
+    "name": "Vector",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 47,
+    "rateOfFire": 81,
+    "range": 32,
+    "magazineSize": 23,
+    "specialAttributes": [
+      "First Akimbo (dual-wield) weapon in Free Fire; devastating at very close range."
+    ],
+    "description": "The Vector is the first Akimbo weapon in Free Fire, allowing players to wield one in each hand. It has a short effective range but delivers devastating power in close-range combat. Despite its insane rate of fire, it remains stable, though it cannot equip any attachments other than a magazine.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/vector.png"
+  },
+  {
+    "id": "vss",
+    "name": "VSS",
+    "type": "SMG",
+    "primaryType": "SMG",
+    "damage": 54,
+    "rateOfFire": 48,
+    "range": 82,
+    "magazineSize": 15,
+    "specialAttributes": [
+      "Pre-attached 4x scope; integrated silencer."
+    ],
+    "description": "A silenced scoped weapon suited for mid-range pressure.",
+    "availableInClashSquad": true,
+    "price": 1400,
+    "armory": "Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 BR source adjustment: VSS priced at 100 FF Coins in BR Vending Machine with no purchase limit."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/vss.png"
+  },
+  {
+    "id": "charge-buster",
+    "name": "Charge Buster",
+    "type": "Shotgun",
+    "primaryType": "Shotgun",
+    "damage": 3,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Charged Shot"
+    ],
+    "description": "Shotgun that charges up when holding fire. Charging increases damage and range.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [
+      "Foregrip"
+    ],
+    "recentUpdates": [
+      "OB53 adjustment: Pellet Count 8 → 7; added Foregrip slot; Movement Speed +6%; Limb Damage +25%."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/charge-buster.png"
+  },
+  {
+    "id": "m1014",
+    "name": "M1014",
+    "type": "Shotgun",
+    "primaryType": "Shotgun",
+    "damage": 94,
+    "rateOfFire": 39,
+    "range": 10,
+    "magazineSize": 6,
+    "specialAttributes": [
+      "Pump-action shotgun with a 6-round tube; reliable close-quarter damage."
+    ],
+    "description": "The M1014 is a pump-action shotgun designed to quickly decimate nearby opponents, offering high damage in close-quarter combat.",
+    "availableInClashSquad": true,
+    "price": 1800,
+    "armory": "Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 source adjustment: M1014-II priced at 600 FF Coins in BR Vending Machine (limit 5); M1014-III available in CS Cyber Items for 1900 CS Cash."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m1014.png"
+  },
+  {
+    "id": "m1887",
+    "name": "M1887",
+    "type": "Shotgun",
+    "primaryType": "Shotgun",
+    "damage": 100,
+    "rateOfFire": 42,
+    "range": 21,
+    "magazineSize": 2,
+    "specialAttributes": [
+      "Double-barrel shotgun with incredible close-range damage and high armor penetration."
+    ],
+    "description": "The M1887 is a large-caliber double-shot shotgun that poses a significant threat to enemies at close range, delivering high damage and armor penetration. M1887-X = 2800",
+    "availableInClashSquad": true,
+    "price": 1800,
+    "armory": "Crazy Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m1887.png"
+  },
+  {
+    "id": "m590",
+    "name": "M590",
+    "type": "Shotgun",
+    "primaryType": "Shotgun",
+    "damage": 94,
+    "rateOfFire": 36,
+    "range": 10,
+    "magazineSize": 5,
+    "specialAttributes": [
+      "Pump-action shotgun with balanced damage and range; reliable in close-quarters combat. Added Muzzle slot in OB53; cannot equip Silencer."
+    ],
+    "description": "The M590 is a pump-action shotgun designed for close-range engagements. It offers balanced damage and range, making it a dependable choice for players seeking a straightforward and effective weapon in tight combat situations.",
+    "availableInClashSquad": true,
+    "price": 2800,
+    "armory": "Competitive Store, Random Store",
+    "aliases": [],
+    "attachments": [
+      "Muzzle (no Silencer)"
+    ],
+    "recentUpdates": [
+      "OB53: Added Muzzle attachment slot; cannot equip Silencer."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m590.png"
+  },
+  {
+    "id": "mag-7",
+    "name": "MAG-7",
+    "type": "Shotgun",
+    "primaryType": "Shotgun",
+    "damage": 80,
+    "rateOfFire": 53,
+    "range": 15,
+    "magazineSize": 8,
+    "specialAttributes": [
+      "Fast rate-of-fire shotgun with an 8-round magazine for aggressive close-range fights."
+    ],
+    "description": "With mid-range power and a high fire rate.",
+    "availableInClashSquad": true,
+    "price": 1600,
+    "armory": "Crazy Store, Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 buff: Weapon Switch Speed +15%; Rate of Fire +5%; Movement Speed +5%."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/mag-7.png"
+  },
+  {
+    "id": "spas12",
+    "name": "SPAS12",
+    "type": "Shotgun",
+    "primaryType": "Shotgun",
+    "damage": 97,
+    "rateOfFire": 42,
+    "range": 16,
+    "magazineSize": 5,
+    "specialAttributes": [
+      "High-damage shotgun with slightly longer range than M1014; slow pump rate."
+    ],
+    "description": "The SPAS12 is a very powerful short-range shotgun. However, missing a shot can be punishing due to its single-fire mechanism.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/spas12.png"
+  },
+  {
+    "id": "trogon",
+    "name": "Trogon",
+    "type": "Shotgun",
+    "primaryType": "Shotgun",
+    "damage": 93,
+    "rateOfFire": 32,
+    "range": 12,
+    "magazineSize": 12,
+    "specialAttributes": [
+      "Dual-mode weapon: switches between shotgun shells and 40mm grenades."
+    ],
+    "description": "The Trogon is a dual-mode weapon that fires both shotgun shells and explosive grenades. It excels in both direct damage and AoE situations, ideal for flushing out enemies behind cover.",
+    "availableInClashSquad": true,
+    "price": 2200,
+    "armory": "Crazy Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/trogon.png"
+  },
+  {
+    "id": "awm",
+    "name": "AWM",
+    "type": "Sniper Rifle",
+    "primaryType": "Sniper Rifle",
+    "damage": 90,
+    "rateOfFire": 27,
+    "range": 91,
+    "magazineSize": 5,
+    "specialAttributes": [
+      "High damage sniper rifle with a long reload time."
+    ],
+    "description": "The AWM is a high-damage sniper rifle with an extended range, making it ideal for targeting enemies from a distance. However, it has a long reload time, so precision and timing are crucial when using this weapon.",
+    "availableInClashSquad": true,
+    "price": 3200,
+    "armory": "Crazy Store, Competitive Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 sniper buff: Armor Penetration +20%; Limb Damage +50%."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/awm.png"
+  },
+  {
+    "id": "healing-sniper",
+    "name": "Healing Sniper",
+    "type": "Sniper Rifle",
+    "primaryType": "Sniper Rifle",
+    "damage": 30,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Mid-Range Healing"
+    ],
+    "description": "Sniper-like weapon that locks onto teammates to heal them. Healing effect at medium range.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [
+      "Heal Sniper"
+    ],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/healing-sniper.png"
+  },
+  {
+    "id": "kar98k",
+    "name": "Kar98k",
+    "type": "Sniper Rifle",
+    "primaryType": "Sniper Rifle",
+    "damage": 90,
+    "rateOfFire": 27,
+    "range": 84,
+    "magazineSize": 5,
+    "specialAttributes": [
+      "Well-balanced sniper rifle pre-equipped with an 8x scope."
+    ],
+    "description": "The Kar98k is a well-balanced sniper rifle that comes pre-equipped with an 8x scope, allowing for precise long-range engagements.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 sniper buff: Armor Penetration +20%; Limb Damage +50%."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/kar98k.png"
+  },
+  {
+    "id": "m24",
+    "name": "M24",
+    "type": "Sniper Rifle",
+    "primaryType": "Sniper Rifle",
+    "damage": 88,
+    "rateOfFire": 33,
+    "range": 90,
+    "magazineSize": 5,
+    "specialAttributes": [
+      "Fast rate of fire for a sniper; lightweight build"
+    ],
+    "description": "A semi-automatic sniper rifle effective for mid to long-range encounters",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 buff/rework: Now upgradeable; base M24 Damage +60%, Reload Speed -25%, Movement Speed -20%, Magazine Capacity 15 → 5, Headshot Rate 5.5 → 2.5; can no longer penetrate Gloo Walls.",
+      "OB53 BR source adjustment: M24-II priced at 600 FF Coins in BR Vending Machine with a purchase limit of 5."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m24.png"
+  },
+  {
+    "id": "m82b",
+    "name": "M82B",
+    "type": "Sniper Rifle",
+    "primaryType": "Sniper Rifle",
+    "damage": 123,
+    "rateOfFire": 27,
+    "range": 85,
+    "magazineSize": 8,
+    "specialAttributes": [
+      "Can penetrate Gloo Walls; deals extra damage to vehicles."
+    ],
+    "description": "Anti-vehicle sniper rifle that can penetrate Gloo Walls and pressure cover.",
+    "availableInClashSquad": null,
+    "price": null,
+    "armory": null,
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 sniper buff: Armor Penetration +20%; Limb Damage +50%."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/m82b.png"
+  },
+  {
+    "id": "vsk94",
+    "name": "VSK94",
+    "type": "Sniper Rifle",
+    "primaryType": "Sniper Rifle",
+    "damage": 26,
+    "rateOfFire": 27,
+    "range": 89,
+    "magazineSize": 5,
+    "specialAttributes": [
+      "Long Range, Silenced"
+    ],
+    "description": "Silenced sniper rifle (energy-based). Good accuracy and concealed fire.",
+    "availableInClashSquad": true,
+    "price": 2000,
+    "armory": "Crazy Store, Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 sniper buff: Armor Penetration +20%; Limb Damage +50%."
+    ],
+    "sources": [
+      "user_reference_json",
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/vsk94.png"
+  },
+  {
+    "id": "hydro-blaster",
+    "name": "Hydro Blaster",
+    "type": "Special / Event Weapon",
+    "primaryType": "Special",
+    "damage": null,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Continuous water beam; after sustained fire, triggers a high-pressure burst that deals heavy damage; QTE fast reload."
+    ],
+    "description": "OB53 Undersea Mystery water weapon. Hold fire to spray water beams toward the crosshair; after sustained fire, it releases a high-pressure burst.",
+    "availableInClashSquad": true,
+    "price": null,
+    "armory": "CS Store / BR Undersea Mystery",
+    "aliases": [
+      "Water Gun"
+    ],
+    "attachments": [],
+    "recentUpdates": [
+      "OB53 new event weapon: available in Battle Royale Undersea Mystery gameplay and added to the Clash Squad Store."
+    ],
+    "sources": [
+      "Garena OB53 Patch Notes (2026-04-02)",
+      "Garena Undersea Mystery announcement (2026-04-08)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "official_patch_notes",
+    "imageLocal": "/assets/weapons/hydro-blaster.jpeg"
+  },
+  {
+    "id": "grenade",
+    "name": "Grenade",
+    "type": "Throwable",
+    "primaryType": "Throwable",
+    "damage": null,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Area Damage"
+    ],
+    "description": "Throwable explosive. High area-of-effect damage for clearing cover.",
+    "availableInClashSquad": true,
+    "price": 300,
+    "armory": "Crazy Store, Competitive Store, Random Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/grenade.png"
+  },
+  {
+    "id": "smoke-grenade",
+    "name": "Smoke Grenade",
+    "type": "Throwable",
+    "primaryType": "Throwable",
+    "damage": null,
+    "rateOfFire": null,
+    "range": null,
+    "magazineSize": null,
+    "specialAttributes": [
+      "Smoke (Vision-blocking)"
+    ],
+    "description": "Deploys a thick smoke screen for 25s. Blocks vision (no damage).",
+    "availableInClashSquad": true,
+    "price": 100,
+    "armory": "Competitive Store",
+    "aliases": [],
+    "attachments": [],
+    "recentUpdates": [],
+    "sources": [
+      "user_reference_json",
+      "Garena official weapons catalog (current page checked 2026-04-24)"
+    ],
+    "sourceNotes": [],
+    "lastVerified": "2026-04-24",
+    "dataConfidence": "reference_with_ob53_notes",
+    "imageLocal": "/assets/weapons/smoke-grenade.png"
+  }
+]

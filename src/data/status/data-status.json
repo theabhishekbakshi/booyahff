@@ -1,0 +1,49 @@
+{
+  "source": {
+    "name": "Free Fire Data Center (GitHub)",
+    "repoUrl": "https://github.com/misai-my/ff-center",
+    "importScript": "free_fire_data_starter_kit/scripts/import_ff_center.py"
+  },
+  "importedAt": "2026-10-22T00:40:34.836Z",
+  "inputDirectory": "D:\\My Projects\\opencodeFF\\free_fire_data_starter_kit\\data\\imported_ff_center",
+  "recordCounts": {
+    "characters": 64,
+    "weapons": 75,
+    "pets": 23,
+    "counters": 23,
+    "loadouts": 4
+  },
+  "fileStatus": {
+    "counter.json": {
+      "status": "ok"
+    },
+    "weapon.json": {
+      "status": "ok"
+    },
+    "pet.json": {
+      "status": "ok"
+    },
+    "character.json": {
+      "status": "ok"
+    },
+    "asset_manifest.json": {
+      "status": "ok"
+    },
+    "loadout.json": {
+      "status": "ok"
+    }
+  },
+  "failures": [],
+  "dataVersions": {
+    "characters": "OB54, OB55",
+    "weapons": "stats last verified 2026-04-24",
+    "pets": null,
+    "counters": null,
+    "loadouts": "OB51, OB52, OB53"
+  },
+  "knownLimitations": [
+    "team_logos.json could not be imported: upstream JSON is malformed (GitHub repository misai-my/ff-center, branch main).",
+    "events.json and redeem_codes.json upstream templates contain placeholder records only; no real events or codes are published on this site.",
+    "Counts of characters (64), weapons (75), pets (23), counter profiles (23) and loadouts (4) reflect the upstream dataset; completeness is not guaranteed."
+  ]
+}

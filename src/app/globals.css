@@ -1,26 +1,177 @@
 @import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
-}
+@custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, monospace;
+  --font-heading: var(--font-sans);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-success: var(--success);
+  --color-warning: var(--warning);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-brand: var(--brand);
+  --color-brand-soft: var(--brand-soft);
+  --color-signal: var(--signal);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --radius-sm: calc(var(--radius) * 0.5);
+  --radius-md: calc(var(--radius) * 0.75);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+/* Dark-first identity -------------------------------------------------- */
+:root {
+  --font-sans: var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+
+  /* brand tokens (accent configurable) */
+  --brand: #f97916;
+  --brand-hover: #ff8b30;
+  --brand-foreground: #1a0f05;
+  --brand-soft: rgba(249, 121, 22, 0.14);
+  --signal: #2fd4e6;
+
+  /* dark theme (default) */
+  --background: #0a0c10;
+  --foreground: #f5f3ef;
+  --card: #12151b;
+  --card-foreground: #f5f3ef;
+  --popover: #151920;
+  --popover-foreground: #f5f3ef;
+  --primary: var(--brand);
+  --primary-foreground: var(--brand-foreground);
+  --secondary: #1c212a;
+  --secondary-foreground: #e8e6e1;
+  --muted: #171b22;
+  --muted-foreground: #9aa3b2;
+  --accent: #1c212a;
+  --accent-foreground: #f5f3ef;
+  --destructive: #f87171;
+  --success: #34d399;
+  --warning: #fbbf24;
+  --border: rgba(255, 255, 255, 0.08);
+  --input: rgba(255, 255, 255, 0.12);
+  --ring: rgba(249, 121, 22, 0.55);
+  --radius: 0.75rem;
+  --surface-grid: rgba(255, 255, 255, 0.035);
+}
+
+/* brand safety in browsers that lack oklch */
+.light,
+html.light {
+  --background: #f7f6f3;
+  --foreground: #17181c;
+  --card: #ffffff;
+  --card-foreground: #17181c;
+  --popover: #ffffff;
+  --popover-foreground: #17181c;
+  --primary: #e26a05;
+  --primary-foreground: #ffffff;
+  --secondary: #ecede8;
+  --secondary-foreground: #23252b;
+  --muted: #eff0eb;
+  --muted-foreground: #5a6070;
+  --accent: #f6efe6;
+  --accent-foreground: #17181c;
+  --border: rgba(23, 24, 28, 0.1);
+  --input: rgba(23, 24, 28, 0.14);
+  --ring: rgba(226, 106, 5, 0.5);
+  --surface-grid: rgba(23, 24, 28, 0.03);
+  --brand-soft: rgba(226, 106, 5, 0.1);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply font-sans scroll-smooth;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "cv11", "ss01";
+  }
+  ::selection {
+    background: color-mix(in oklab, var(--brand) 35%, transparent);
+  }
+  /* focus-visible polish */
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
   }
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+@utility container-page {
+  margin-inline: auto;
+  width: 100%;
+  max-width: 80rem;
+  padding-inline: 1rem;
+  @media (width >= 640px) {
+    padding-inline: 1.5rem;
+  }
+  @media (width >= 1024px) {
+    padding-inline: 2rem;
+  }
+}
+
+@utility text-title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  text-wrap: balance;
+}
+
+@utility text-eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  font-size: 0.72rem;
+  color: var(--muted-foreground);
+}
+
+/* Tactical surface used by heroes & panels ----------------------------- */
+@utility surface-tactical {
+  background-image: linear-gradient(var(--surface-grid) 1px, transparent 1px),
+    linear-gradient(90deg, var(--surface-grid) 1px, transparent 1px);
+  background-size: 44px 44px;
+  background-position: center;
+}
+
+@utility surface-hero-fade {
+  mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 55%, transparent 100%);
+}
+
+@utility scrollbar-thin {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(150, 160, 175, 0.35) transparent;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
 }
