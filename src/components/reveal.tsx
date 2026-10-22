@@ -13,7 +13,10 @@ export function Reveal({
   y = 18,
   as = "div",
   once = true,
-  amount = 0.25,
+  // "some" = fire as soon as any part of the block enters the viewport;
+  // a large amount (e.g. 25%) silently never triggers on short (mobile)
+  // viewports when the block is taller than the screen.
+  amount = "some",
 }: {
   children: ReactNode;
   className?: string;
@@ -21,7 +24,7 @@ export function Reveal({
   y?: number;
   as?: "div" | "li" | "section";
   once?: boolean;
-  amount?: number;
+  amount?: number | "some" | "all";
 }) {
   const reduce = useReducedMotion();
   const Comp = as === "li" ? motion.li : as === "section" ? motion.section : motion.div;
@@ -59,7 +62,10 @@ const itemVariants: Variants = {
   },
 };
 
-/** Staggered children container with per-item RevealItem */
+/** Staggered children container with per-item RevealItem.
+ *  The container uses amount:"some" — a tall grid (e.g. a 24-card mobile list
+ *  that never reaches 15% of the viewport) must still trigger its reveal as
+ *  soon as any of it is on screen. */
 export function RevealGroup({
   children,
   className,
@@ -77,7 +83,7 @@ export function RevealGroup({
       variants={reduce ? undefined : containerVariants}
       initial="hidden"
       whileInView="show"
-      viewport={{ once: true, amount: 0.15, margin: "0px 0px -6% 0px" }}
+      viewport={{ once: true, amount: "some", margin: "0px 0px 0px 0px" }}
     >
       {children}
     </Comp>

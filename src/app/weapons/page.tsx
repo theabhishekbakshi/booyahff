@@ -6,7 +6,7 @@ import { FilterSearch } from "@/components/filter-search";
 import { FilterTabs, Pagination } from "@/components/list-controls";
 import { SortSelect, type SortOption } from "@/components/sort-select";
 import { HeadingSection } from "@/components/heading-section";
-import { Reveal } from "@/components/reveal";
+import { RevealGroup, RevealItem } from "@/components/reveal";
 import { getWeapons, normalizeQuery, searchGameData } from "@/lib/data";
 import { queryToString } from "@/lib/query";
 import { pageMetadata } from "@/lib/seo";
@@ -113,11 +113,13 @@ export default async function WeaponsPage({ searchParams }: Props) {
             Showing {pageItems.length} of {total} weapon{total === 1 ? "" : "s"}
             {query ? ` matching “${query}”` : ""}
           </p>
-          <Reveal className="grid grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+          <RevealGroup as="ul" className="grid list-none grid-cols-1 gap-3 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {pageItems.map((w) => (
-              <WeaponCard key={w.id} weapon={w} />
+              <RevealItem key={w.id}>
+                <WeaponCard weapon={w} />
+              </RevealItem>
             ))}
-          </Reveal>
+          </RevealGroup>
           <Pagination basePath="/weapons" currentParams={params} page={page} pageCount={pageCount} />
         </>
       )}

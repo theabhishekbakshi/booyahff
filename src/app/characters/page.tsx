@@ -6,7 +6,7 @@ import { FilterSearch } from "@/components/filter-search";
 import { FilterTabs, Pagination } from "@/components/list-controls";
 import { SortSelect, type SortOption } from "@/components/sort-select";
 import { HeadingSection } from "@/components/heading-section";
-import { Reveal } from "@/components/reveal";
+import { RevealGroup, RevealItem } from "@/components/reveal";
 import { getCharacters, searchGameData } from "@/lib/data";
 import { normalizeQuery } from "@/lib/data";
 import { queryToString } from "@/lib/query";
@@ -117,11 +117,13 @@ export default async function CharactersPage({ searchParams }: Props) {
             Showing {pageItems.length} of {total} character{total === 1 ? "" : "s"}
             {query ? ` matching “${query}”` : ""}
           </p>
-          <Reveal className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+          <RevealGroup as="ul" className="grid list-none grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
             {pageItems.map((c) => (
-              <CharacterCard key={c.id} character={c} />
+              <RevealItem key={c.id}>
+                <CharacterCard character={c} />
+              </RevealItem>
             ))}
-          </Reveal>
+          </RevealGroup>
           <Pagination
             basePath="/characters"
             currentParams={params}

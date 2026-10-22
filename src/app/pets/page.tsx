@@ -6,7 +6,7 @@ import { FilterSearch } from "@/components/filter-search";
 import { FilterTabs, Pagination } from "@/components/list-controls";
 import { SortSelect, type SortOption } from "@/components/sort-select";
 import { HeadingSection } from "@/components/heading-section";
-import { Reveal } from "@/components/reveal";
+import { RevealGroup, RevealItem } from "@/components/reveal";
 import { getPets, normalizeQuery, searchGameData } from "@/lib/data";
 import { queryToString } from "@/lib/query";
 import { pageMetadata } from "@/lib/seo";
@@ -106,11 +106,13 @@ export default async function PetsPage({ searchParams }: Props) {
             Showing {pageItems.length} of {total} pet{total === 1 ? "" : "s"}
             {query ? ` matching “${query}”` : ""}
           </p>
-          <Reveal className="grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
+          <RevealGroup as="ul" className="grid list-none grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6">
             {pageItems.map((p) => (
-              <PetCard key={p.id} pet={p} />
+              <RevealItem key={p.id}>
+                <PetCard pet={p} />
+              </RevealItem>
             ))}
-          </Reveal>
+          </RevealGroup>
           <Pagination basePath="/pets" currentParams={params} page={page} pageCount={pageCount} />
         </>
       )}
