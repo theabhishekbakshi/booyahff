@@ -107,6 +107,13 @@ export function RevealItem({
       // inside plain grid <div>s, where the default disc bullet shows
       className={cn("list-none", className)}
       variants={reduce ? undefined : itemVariants}
+      // per-item observer besides the group's whileInView: on a soft navigation
+      // (type filter, pagination) the group has already completed
+      // its once:true reveal, so fresh children would otherwise stay stranded
+      // in the hidden variant (invisible) until a full page reload
+      whileInView={reduce ? undefined : "show"}
+      viewport={{ once: true, amount: "some", margin: "0px 0px -8% 0px" }}
+      transition={{ duration: 0.6, ease: EASE }}
     >
       {children}
     </Comp>

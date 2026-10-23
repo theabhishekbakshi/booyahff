@@ -1,0 +1,334 @@
+
+> free-fire-platform@0.1.0 dev
+> next dev
+
+[32m✔[0m [33mConsole Ninja[0m extension is connected to [33mNext.js[0m, see [36mhttps://tinyurl.com/2vt8jxzw[0m
+▲ Next.js 16.4.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://192.168.137.1:3000
+✓ Ready in 1646ms
+✓ Running next.config.ts took 90ms
+- Cache Components enabled
+- Experiments (use with caution):
+  ✓ memoryBasedWorkersCount
+
+○ Compiling / ...
+ GET / 200 in 4.5s (next.js: 1229ms, application-code: 3.3s)
+ GET / 200 in 570ms (next.js: 7ms, application-code: 563ms)
+ GET /weapons 200 in 313ms (next.js: 84ms, application-code: 229ms)
+ GET /weapons?type=Marksman+Rifle 200 in 120ms (next.js: 5ms, application-code: 116ms)
+ GET /weapons?type=Launcher 200 in 80ms (next.js: 4ms, application-code: 76ms)
+ GET /weapons?type=Bow 200 in 84ms (next.js: 4ms, application-code: 80ms)
+ GET /weapons?type=Bow 200 in 79ms (next.js: 4ms, application-code: 75ms)
+ GET /weapons?type=Launcher 200 in 232ms (next.js: 4ms, application-code: 229ms)
+ GET /weapons?type=Launcher 200 in 131ms (next.js: 5ms, application-code: 126ms)
+ GET /weapons?type=Light+Machine+Gun 200 in 106ms (next.js: 4ms, application-code: 103ms)
+ GET /weapons?type=Marksman+Rifle 200 in 85ms (next.js: 4ms, application-code: 81ms)
+ GET /weapons?type=Melee 200 in 123ms (next.js: 4ms, application-code: 119ms)
+ GET /weapons?type=Pistol 200 in 151ms (next.js: 10ms, application-code: 142ms)
+ GET /weapons?type=SMG 200 in 113ms (next.js: 5ms, application-code: 108ms)
+ GET /weapons?type=SMG 200 in 383ms (next.js: 3ms, application-code: 380ms)
+ GET /weapons?type=SMG 200 in 290ms (next.js: 2ms, application-code: 288ms)
+ GET /weapons?type=Light+Machine+Gun 200 in 131ms (next.js: 4ms, application-code: 127ms)
+ GET /weapons?type=Assault+Rifle 200 in 170ms (next.js: 3ms, application-code: 167ms)
+ GET /weapons?type=Assault+Rifle 200 in 374ms (next.js: 4ms, application-code: 370ms)
+[browser] Image with src "/assets/weapons/ak47.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+⚠ Console Ninja Turbopack support is a PRO feature, [33mcurrently available to community users while in preview[0m
+✓ Compiled in 2.4s
+ GET /weapons?type=Assault+Rifle 200 in 868ms (next.js: 76ms, application-code: 793ms)
+ GET /weapons?type=SMG 200 in 464ms (next.js: 11ms, application-code: 453ms)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/build/polyfills/polyfill-module.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET /weapons?type=Assault+Rifle 200 in 351ms (next.js: 3ms, application-code: 348ms)
+✓ Compiled in 2.3s
+○ Compiling /_error ...
+ GET /weapons?type=SMG 307 in 5.1s (next.js: 3ms, application-code: 5.1s)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 52ms (next.js: 5ms, application-code: 47ms)
+ GET /weapons?type=SMG 307 in 8ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 55ms (next.js: 7ms, application-code: 48ms)
+ GET /weapons?type=SMG 307 in 9ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 62ms (next.js: 5ms, application-code: 56ms)
+ GET /weapons?type=SMG 307 in 9ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 75ms (next.js: 8ms, application-code: 67ms)
+ GET /weapons?type=SMG 307 in 9ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 48ms (next.js: 7ms, application-code: 41ms)
+ GET /weapons?type=SMG 307 in 7ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 45ms (next.js: 7ms, application-code: 38ms)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 43ms (next.js: 7ms, application-code: 36ms)
+ GET /weapons?type=SMG 307 in 12ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 68ms (next.js: 10ms, application-code: 58ms)
+ GET /weapons?type=SMG 307 in 9ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 70ms (next.js: 5ms, application-code: 65ms)
+ GET /weapons?type=SMG 307 in 7ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 42ms (next.js: 5ms, application-code: 37ms)
+ GET /weapons?type=SMG 307 in 7ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 43ms (next.js: 6ms, application-code: 37ms)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 44ms (next.js: 6ms, application-code: 38ms)
+ GET /weapons?type=SMG 307 in 7ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 43ms (next.js: 6ms, application-code: 37ms)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 46ms (next.js: 4ms, application-code: 41ms)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 40ms (next.js: 5ms, application-code: 35ms)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 50ms (next.js: 7ms, application-code: 43ms)
+ GET /weapons?type=SMG 307 in 7ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 50ms (next.js: 5ms, application-code: 44ms)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 41ms (next.js: 5ms, application-code: 36ms)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 48ms (next.js: 6ms, application-code: 42ms)
+ GET /weapons?type=SMG 307 in 5ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 47ms (next.js: 5ms, application-code: 42ms)
+ GET /weapons?type=SMG 307 in 7ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 45ms (next.js: 5ms, application-code: 40ms)
+ GET /weapons?type=SMG 307 in 5ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 43ms (next.js: 5ms, application-code: 38ms)
+ GET /weapons?type=SMG 307 in 5ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 45ms (next.js: 5ms, application-code: 40ms)
+ GET /weapons?type=SMG 307 in 6ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 307 in 46ms (next.js: 4ms, application-code: 42ms)
+ GET /weapons?type=SMG 307 in 5ms
+ GET /weapons?type=SMG 307 in 5ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 500 in 371ms (next.js: 51ms, application-code: 320ms)
+ GET /weapons?type=SMG 307 in 5ms
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames
+⨯ Error: The router state header was sent but could not be parsed.
+    at ignore-listed frames {
+  page: '/weapons'
+}
+ GET /weapons?type=SMG 500 in 55ms (next.js: 37ms, application-code: 19ms)
+ GET /weapons 200 in 755ms (next.js: 14ms, application-code: 741ms)
+[browser] Image with src "/assets/weapons/ac80.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /weapons?type=SMG 200 in 150ms (next.js: 5ms, application-code: 145ms)
+ GET /weapons 200 in 539ms (next.js: 4ms, application-code: 535ms)
+[browser] Image with src "/assets/weapons/ac80.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /weapons?type=SMG 200 in 124ms (next.js: 5ms, application-code: 120ms)
+✓ Compiled in 306ms
+✓ Compiled in 84ms
+ GET /weapons 200 in 524ms (next.js: 10ms, application-code: 514ms)
+[browser] Image with src "/assets/weapons/ac80.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /weapons?type=SMG 200 in 126ms (next.js: 4ms, application-code: 122ms)
+ GET /weapons?type=Launcher 200 in 102ms (next.js: 4ms, application-code: 98ms)
+ GET /weapons 200 in 22ms (next.js: 4ms, application-code: 18ms)
+ GET /weapons 200 in 191ms (next.js: 4ms, application-code: 187ms)
+ GET /characters 200 in 724ms (next.js: 30ms, application-code: 694ms)
+[browser] Image with src "/assets/characters/alvaro.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /characters?role=TEAM+WORK 200 in 95ms (next.js: 4ms, application-code: 90ms)
+ GET /pets 200 in 581ms (next.js: 38ms, application-code: 543ms)
+[browser] Image with src "/assets/pets/arvon.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+[browser] Image with src "/assets/pets/falco.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /pets?role=SURVIVAL 200 in 117ms (next.js: 5ms, application-code: 112ms)
+ GET /weapons 200 in 446ms (next.js: 3ms, application-code: 443ms)
+[browser] You have Reduced Motion enabled on your device. Animations may not appear as expected.. For more information and steps for solving, visit https://motion.dev/troubleshooting/reduced-motion-disabled (src/components/reveal.tsx:29:34)
+[browser] A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <InnerScrollHandler scrollRef={{scrollRef:null, ...}} renderTree={{...}}>
+      <ErrorBoundary errorComponent={undefined} errorStyles={undefined} errorScripts={undefined}>
+        <LoadingBoundary name="weapons/" loading={null}>
+          <HTTPAccessFallbackBoundary notFound={undefined} forbidden={undefined} unauthorized={undefined}>
+            <RedirectBoundary>
+              <RedirectErrorBoundary router={{...}}>
+                <InnerLayoutRouter url="/weapons" tree={[...]} params={{}} renderTree={{...}} segmentPath={[...]} ...>
+                  <SegmentViewNode type="page" pagePath="weapons/pa...">
+                    <SegmentTrieNode>
+                    <WeaponsPage>
+                      <div className="container-...">
+                        <HeadingSection>
+                          <Reveal className="mb-8">
+                            <motion.div className="mb-8" initial={false} whileInView={{opacity:1,y:0, ...}} ...>
+                              <div
+                                className="mb-8"
+                                style={{
+-                                 opacity: "0"
+-                                 filter: "blur(7px)"
+-                                 transform: "translateY(18px) scale(0.985)"
+                                }}
+                                ref={function useMotionRef.useCallback}
+                              >
+                        ...
+                  ...
+                ...
+      ...
+ 
+[browser] Image with src "/assets/weapons/ac80.png" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
+ GET /weapons?type=SMG 200 in 118ms (next.js: 4ms, application-code: 114ms)
