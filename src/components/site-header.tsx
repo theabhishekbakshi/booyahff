@@ -13,6 +13,7 @@ import {
   Search,
   Swords,
   UserSearch,
+  UserRound,
   Wrench,
   X,
   Palette,
@@ -48,8 +49,8 @@ const MORE_LINKS = [
 /** fcmobileforum.com-style floating capsule navbar:
  * sticky wrapper with a blurred page-tinted strip; inside it a rounded
  * bordered panel (shadow-lg) holding logo, an inset pill channel for nav,
- * a fake search field that opens the search dialog, theme toggle and an
- * accent CTA. Pill row scrolls instead of wrapping; dropdown pills mirror
+ * a fake search field that opens the search dialog, theme toggle and a
+ * circular profile button linking to settings. Pill row scrolls instead of wrapping; dropdown pills mirror
  * the "Tools ⌄ / More ⌄" groups of the reference design. */
 export function SiteHeader() {
   const pathname = usePathname();
@@ -167,12 +168,19 @@ export function SiteHeader() {
 
               <ThemeToggle className="hidden size-9 rounded-xl border bg-foreground/5 text-muted-foreground transition-colors hover:bg-foreground/10 hover:text-brand sm:flex" />
 
-              {/* accent CTA */}
+              {/* profile / settings button (circular) */}
               <Link
-                href="/tools/weapon-compare"
-                className="flex shrink-0 select-none items-center justify-center rounded-lg bg-brand px-3 py-2 text-xs font-extrabold whitespace-nowrap text-brand-foreground shadow-sm transition-all active:scale-95 lg:rounded-xl lg:px-4 lg:py-2.5 lg:text-sm hover:bg-brand-hover"
+                href="/settings"
+                aria-label="Open settings and account"
+                aria-current={isActive("/settings") ? "page" : undefined}
+                className={cn(
+                  "flex size-9 shrink-0 select-none items-center justify-center rounded-full border transition-all active:scale-95 lg:size-10",
+                  isActive("/settings")
+                    ? "border-brand/50 bg-brand/15 text-brand"
+                    : "bg-foreground/5 text-muted-foreground hover:bg-foreground/10 hover:text-brand",
+                )}
               >
-                Compare
+                <UserRound className="size-4 lg:size-[18px]" aria-hidden />
               </Link>
 
               {/* mobile menu */}
@@ -224,6 +232,20 @@ export function SiteHeader() {
                           </li>
                         ))}
                       </ul>
+                      <div className="mt-2 border-t pt-2">
+                        <Link
+                          href="/settings"
+                          onClick={() => setMobileOpen(false)}
+                          className={cn(
+                            "flex items-center gap-2.5 rounded-md px-3 py-2.5 text-sm text-muted-foreground hover:bg-secondary hover:text-foreground",
+                            isActive("/settings") && "bg-secondary/70 text-foreground",
+                          )}
+                          aria-current={isActive("/settings") ? "page" : undefined}
+                        >
+                          <UserRound className="size-4" aria-hidden />
+                          Settings &amp; account
+                        </Link>
+                      </div>
                     </nav>
                     <div className="border-t p-3 text-xs text-muted-foreground">
                       Unofficial fan project — not affiliated with Garena.

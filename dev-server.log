@@ -535,3 +535,42 @@ Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
  GET / 200 in 506ms (next.js: 6ms, application-code: 500ms)
  GET / 200 in 517ms (next.js: 4ms, application-code: 513ms)
  GET / 200 in 573ms (next.js: 5ms, application-code: 568ms)
+ GET / 200 in 563ms (next.js: 4ms, application-code: 559ms)
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/build/polyfills/polyfill-module.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+✓ Compiled in 923ms
+ GET / 200 in 2.6s (next.js: 8ms, application-code: 2.6s)
+ GET / 200 in 684ms (next.js: 5ms, application-code: 679ms)
+ GET / 200 in 517ms (next.js: 3ms, application-code: 513ms)
+ GET / 200 in 515ms (next.js: 4ms, application-code: 511ms)
+ GET / 200 in 844ms (next.js: 4ms, application-code: 841ms)
+ GET / 200 in 2.1s (next.js: 43ms, application-code: 2.0s)
+✓ Compiled in 3.9s
+ GET / 200 in 4.2s (next.js: 252ms, application-code: 3.9s)
+ GET / 200 in 958ms (next.js: 19ms, application-code: 939ms)
+✓ Compiled in 1116ms
+ GET / 200 in 2.2s (next.js: 20ms, application-code: 2.2s)
+ GET / 200 in 2.3s (next.js: 83ms, application-code: 2.2s)
+✓ Compiled in 4.1s
+ GET / 200 in 3.1s (next.js: 61ms, application-code: 3.0s)
+✓ Compiled in 914ms
+✓ Compiled in 2s
+✓ Compiled in 268ms
+✓ Compiled in 561ms
+✓ Compiled in 3.6s
+ GET / 200 in 1872ms (next.js: 71ms, application-code: 1802ms)
+✓ Compiled in 6s
+⚠ Fast Refresh had to perform a full reload when ./node_modules/next/dist/build/polyfills/polyfill-module.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+ GET / 200 in 3.3s (next.js: 70ms, application-code: 3.2s)
+○ Compiling /settings ...
+ GET /settings 200 in 555ms (next.js: 164ms, application-code: 391ms)
+ GET /settings 200 in 890ms (next.js: 15ms, application-code: 875ms)
+ GET /settings 200 in 823ms (next.js: 171ms, application-code: 653ms)
+ GET /settings 200 in 322ms (next.js: 152ms, application-code: 171ms)
+ GET /settings 200 in 539ms (next.js: 7ms, application-code: 533ms)
+ GET / 200 in 889ms (next.js: 10ms, application-code: 879ms)
+ GET /settings 200 in 143ms (next.js: 9ms, application-code: 134ms)
+ GET /settings 200 in 541ms (next.js: 71ms, application-code: 471ms)
+ GET /about 200 in 423ms (next.js: 87ms, application-code: 336ms)
+ GET / 200 in 416ms (next.js: 6ms, application-code: 410ms)
+ GET /settings 200 in 146ms (next.js: 8ms, application-code: 138ms)
+ GET /settings 200 in 175ms (next.js: 12ms, application-code: 163ms)
