@@ -3,8 +3,8 @@
  * (name, accent color, links) — components read from this file only.
  */
 export const siteConfig = {
-  name: "BooyahFF",
-  shortName: "Booyah",
+  name: "FFIndia",
+  shortName: "FF INDIA",
   tagline: "Master Your Drop",
   description:
     "An unofficial Free Fire database: explore characters, compare weapons, browse pets and loadout items, and improve your game knowledge.",
@@ -13,7 +13,7 @@ export const siteConfig = {
     secondary: "#22d3ee", // restrained electric cyan
   },
   url:
-    process.env.NEXT_PUBLIC_SITE_URL ?? "https://booyahff.example.com",
+    process.env.NEXT_PUBLIC_SITE_URL ?? "https://ffindia.example.com",
   locale: "en_US",
   links: {
     officialNews: "https://ff.garena.com/en/news/",

@@ -36,8 +36,10 @@ export function SiteFooter() {
               <span className="flex size-7 items-center justify-center rounded-md bg-primary text-primary-foreground">
                 <Crosshair className="size-4" aria-hidden />
               </span>
-              {siteConfig.shortName}
-              <span className="text-brand">FF</span>
+              <span className="flex flex-col leading-tight uppercase">
+                <span>{siteConfig.shortName}</span>
+                <span className="text-brand">forum</span>
+              </span>
             </Link>
             <p className="mt-3 max-w-xs text-sm text-muted-foreground">
               An unofficial community database for browsing and comparing
